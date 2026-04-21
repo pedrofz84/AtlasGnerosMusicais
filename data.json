@@ -1,0 +1,6140 @@
+{
+  "nodes": [
+    {
+      "id": "rock",
+      "name": "Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Género surgido nos anos 50 a partir do blues, R&B e country. Base de guitarra elétrica, baixo e bateria. Tornou-se o género dominante do século XX.",
+      "isFusion": false
+    },
+    {
+      "id": "classic_rock",
+      "name": "Classic Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Rock dos anos 60-70, caracterizado por guitarras amplificadas, solos longos e produção robusta. Inclui bandas como Led Zeppelin, The Who e Lynyrd Skynyrd.",
+      "isFusion": false
+    },
+    {
+      "id": "psychedelic_rock",
+      "name": "Psychedelic Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Rock influenciado por substâncias psicodélicas, com sonoridades distorcidas, feedback e experimentação harmónica. Floresceu entre 1965-1969.",
+      "isFusion": false
+    },
+    {
+      "id": "progressive_rock",
+      "name": "Progressive Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Rock de composição elaborada, influenciado pela música clássica e jazz. Suites longas, mudanças de tempo e temáticas conceptuais. Pink Floyd, Yes, Genesis.",
+      "isFusion": false
+    },
+    {
+      "id": "alternative_rock",
+      "name": "Alternative Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA/Reino Unido",
+      "description": "Rock fora do mainstream dos anos 80-90. Abrange desde indie a grunge, com som mais cru e letras introspectivas.",
+      "isFusion": false
+    },
+    {
+      "id": "indie_rock",
+      "name": "Indie Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA/Reino Unido",
+      "description": "Rock produzido de forma independente, com estética DIY. Abrange sonoridades diversas, da jangle pop ao noise rock.",
+      "isFusion": false
+    },
+    {
+      "id": "grunge",
+      "name": "Grunge",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA (Seattle)",
+      "description": "Fusão de punk e heavy metal com letras niilistas. Surgiu em Seattle nos anos 80-90. Nirvana, Pearl Jam, Soundgarden.",
+      "isFusion": false
+    },
+    {
+      "id": "shoegaze",
+      "name": "Shoegaze",
+      "category": "Rock",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Rock etéreo com guitarras saturadas em camadas e vozes submersas no mix. Surgiu no final dos anos 80 no Reino Unido. My Bloody Valentine.",
+      "isFusion": false
+    },
+    {
+      "id": "post_rock",
+      "name": "Post-Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "Reino Unido/EUA",
+      "description": "Rock instrumental que usa estruturas orquestrais e dinâmicas cinematográficas em vez de canções tradicionais. Tortoise, Godspeed You! Black Emperor.",
+      "isFusion": false
+    },
+    {
+      "id": "math_rock",
+      "name": "Math Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rock com compassos irregulares e estruturas rítmicas complexas. Influenciado pelo jazz e música contemporânea.",
+      "isFusion": false
+    },
+    {
+      "id": "emo",
+      "name": "Emo",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Punk hardcore emocional com letras confessionais e melodias expressivas. Evoluiu para correntes pop nos anos 2000.",
+      "isFusion": false
+    },
+    {
+      "id": "screamo",
+      "name": "Screamo",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Subgénero do emo com gritos intensos, dinâmicas extremas e temas de angústia emocional. Som cru e urgente.",
+      "isFusion": false
+    },
+    {
+      "id": "pop_punk",
+      "name": "Pop-Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de punk com melodias pop acessíveis. Surge nos anos 90 com Green Day e Blink-182. Energético e cativante.",
+      "isFusion": true
+    },
+    {
+      "id": "garage_rock",
+      "name": "Garage Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Rock cru e amador dos anos 60, gravado em garagens. Energia crua e simplicidade. Influenciou punk e indie.",
+      "isFusion": false
+    },
+    {
+      "id": "surf_rock",
+      "name": "Surf Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA (Califórnia)",
+      "description": "Rock instrumental dos anos 60 com guitarras com reverb profundo, evocando a cultura do surf californiano. Dick Dale, The Ventures.",
+      "isFusion": false
+    },
+    {
+      "id": "southern_rock",
+      "name": "Southern Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA (Sul)",
+      "description": "Rock com influências de blues, country e gospel do sul dos EUA. Lynyrd Skynyrd, Allman Brothers Band. Guitarras duais e letras regionais.",
+      "isFusion": false
+    },
+    {
+      "id": "art_rock",
+      "name": "Art Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Rock com ambições artísticas e influências da música clássica e avant-garde. Compositores como David Bowie e Roxy Music.",
+      "isFusion": false
+    },
+    {
+      "id": "glam_rock",
+      "name": "Glam Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Rock dos anos 70 com estética andrógina e teatral. David Bowie, T.Rex, Gary Glitter. Brilhantes, provocador e extravagante.",
+      "isFusion": false
+    },
+    {
+      "id": "britpop",
+      "name": "Britpop",
+      "category": "Rock",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Movimento rock britânico dos anos 90 de reação ao grunge americano. Oasis, Blur, Suede. Melodias pop com atitude britânica.",
+      "isFusion": false
+    },
+    {
+      "id": "space_rock",
+      "name": "Space Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Rock psicodélico com texturas cósmicas, drones e temáticas espaciais. Hawkwind, Ozric Tentacles. Sons etéreos e longos.",
+      "isFusion": false
+    },
+    {
+      "id": "stoner_rock",
+      "name": "Stoner Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rock pesado, lento e nebuloso, influenciado pelo doom metal e psicodelia. Kyuss, Queens of the Stone Age.",
+      "isFusion": false
+    },
+    {
+      "id": "desert_rock",
+      "name": "Desert Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA (Mojave)",
+      "description": "Subgénero do stoner rock do deserto californiano. Riffs pesados, produção seca e intensa. Kyuss, Queens of the Stone Age.",
+      "isFusion": false
+    },
+    {
+      "id": "rockabilly",
+      "name": "Rockabilly",
+      "category": "Rock",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Fusão de rock and roll com country e hillbilly music dos anos 50. Elvis Presley, Carl Perkins, Eddie Cochran.",
+      "isFusion": false
+    },
+    {
+      "id": "rock_and_roll",
+      "name": "Rock and Roll",
+      "category": "Rock",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Género fundador surgido nos anos 50 a partir do blues e rhythm & blues. Chuck Berry, Little Richard, Elvis Presley. Ritmo vibrante e energia jovem.",
+      "isFusion": false
+    },
+    {
+      "id": "heavy_metal",
+      "name": "Heavy Metal",
+      "category": "Metal",
+      "era": "mid20",
+      "region": "Reino Unido/EUA",
+      "description": "Rock amplificado ao extremo com guitarras distorcidas, baixo potente e bateria agressiva. Surgiu no final dos anos 60. Black Sabbath, Led Zeppelin.",
+      "isFusion": false
+    },
+    {
+      "id": "thrash_metal",
+      "name": "Thrash Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Metal extremamente rápido e agressivo dos anos 80. Metallica, Slayer, Megadeth, Anthrax — os 'Big Four'.",
+      "isFusion": false
+    },
+    {
+      "id": "death_metal",
+      "name": "Death Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA/Europa",
+      "description": "Metal extremo com vocais guturais, temáticas macabras e técnica extrema. Death, Cannibal Corpse, Morbid Angel.",
+      "isFusion": false
+    },
+    {
+      "id": "black_metal",
+      "name": "Black Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Noruega/Europa",
+      "description": "Metal extremo com temáticas ocultistas e atmosfera glacial. Mayhem, Burzum, Darkthrone. Som cru, deliberadamente lo-fi.",
+      "isFusion": false
+    },
+    {
+      "id": "doom_metal",
+      "name": "Doom Metal",
+      "category": "Metal",
+      "era": "mid20",
+      "region": "Reino Unido/EUA",
+      "description": "Metal lento e pesado com atmosfera sombria e desesperançada. Influenciado por Black Sabbath. Candlemass, Saint Vitus.",
+      "isFusion": false
+    },
+    {
+      "id": "power_metal",
+      "name": "Power Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Europa (Alemanha/Finlândia)",
+      "description": "Metal épico com melodias grandiosas, vozes altas e temáticas de fantasia. Helloween, Blind Guardian, Stratovarius.",
+      "isFusion": false
+    },
+    {
+      "id": "symphonic_metal",
+      "name": "Symphonic Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Metal com orquestrações sinfónicas e vozes operáticas. Nightwish, Within Temptation, Epica.",
+      "isFusion": true
+    },
+    {
+      "id": "folk_metal",
+      "name": "Folk Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Europa do Norte/Finlândia",
+      "description": "Fusão de metal com instrumentos e melodias tradicionais folk. Finntroll, Månegarm, Skálmöld.",
+      "isFusion": true
+    },
+    {
+      "id": "nu_metal",
+      "name": "Nu-Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de metal alternativo com hip hop e elementos electrónicos. Korn, Limp Bizkit, Slipknot. Dominante nos anos 90-2000.",
+      "isFusion": true
+    },
+    {
+      "id": "groove_metal",
+      "name": "Groove Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Metal baseado em riffs pesados sincopados e ritmos groovy. Pantera, Sepultura, Machine Head.",
+      "isFusion": false
+    },
+    {
+      "id": "speed_metal",
+      "name": "Speed Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA/Europa",
+      "description": "Metal precursor do thrash, com andamento extremamente rápido e técnica elaborada. Precursor direto do thrash.",
+      "isFusion": false
+    },
+    {
+      "id": "sludge_metal",
+      "name": "Sludge Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA (New Orleans)",
+      "description": "Fusão de doom metal e hardcore punk. Lento, pesado e sujo. Eyehategod, Crowbar.",
+      "isFusion": true
+    },
+    {
+      "id": "post_metal",
+      "name": "Post-Metal",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Metal com influências de post-rock: dinâmicas de silêncio/explosão, texturas atmosféricas. Isis, Neurosis, Cult of Luna.",
+      "isFusion": true
+    },
+    {
+      "id": "stoner_metal",
+      "name": "Stoner Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Metal lento e nebuloso derivado do doom. Riffs pesados e hipnóticos, atmosfera psicodélica. Electric Wizard, Sleep.",
+      "isFusion": false
+    },
+    {
+      "id": "djent",
+      "name": "Djent",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "Suécia/Global",
+      "description": "Metal progressivo com guitarras de 7-8 cordas, palm mutes rítmicos e polirritmia. Meshuggah, Periphery, Animals as Leaders.",
+      "isFusion": false
+    },
+    {
+      "id": "metalcore",
+      "name": "Metalcore",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de metal extremo com hardcore punk. Partes breakdowns pesados e melodias. Killswitch Engage, As I Lay Dying.",
+      "isFusion": true
+    },
+    {
+      "id": "deathcore",
+      "name": "Deathcore",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Fusão de death metal com metalcore. Breakdowns extremos e vocais guturais. Suicide Silence, Whitechapel.",
+      "isFusion": true
+    },
+    {
+      "id": "nwobhm",
+      "name": "NWOBHM",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "New Wave of British Heavy Metal — movimento dos anos 70-80 que definiu o metal moderno. Iron Maiden, Judas Priest, Saxon.",
+      "isFusion": false
+    },
+    {
+      "id": "viking_metal",
+      "name": "Viking Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Escandinávia",
+      "description": "Metal extremo com temáticas e melodias nórdicas medievais. Amon Amarth, Enslaved, Bathory (fase final).",
+      "isFusion": true
+    },
+    {
+      "id": "pirate_metal",
+      "name": "Pirate Metal",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "Alemanha",
+      "description": "Subgénero humorístico do folk metal com temáticas piratas. Running Wild, Alestorm. Riffs de folk e referências náuticas.",
+      "isFusion": true
+    },
+    {
+      "id": "pagan_metal",
+      "name": "Pagan Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Europa do Leste",
+      "description": "Metal com elementos de folclore pagão europeu. Drudkh, Primordial, Arkona. Sonoridade épica e ligação à natureza.",
+      "isFusion": true
+    },
+    {
+      "id": "war_metal",
+      "name": "War Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Canadá",
+      "description": "Black metal extremamente caótico e violento com temáticas de guerra. Blasphemy, Revenge. Som quase inacessível.",
+      "isFusion": false
+    },
+    {
+      "id": "funeral_doom",
+      "name": "Funeral Doom",
+      "category": "Metal",
+      "era": "late20",
+      "region": "Finlândia/Noruega",
+      "description": "Doom metal extremamente lento, fúnebre e desolado. Pieces com duração de 20-60 minutos. Skepticism, Mournful Congregation.",
+      "isFusion": false
+    },
+    {
+      "id": "atmo_black_metal",
+      "name": "Atmospheric Black Metal",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Black metal com paisagens sonoras atmosféricas e emotivas. Wolves in the Throne Room, Deafheaven, Alcest.",
+      "isFusion": false
+    },
+    {
+      "id": "depressive_bm",
+      "name": "Depressive Black Metal",
+      "category": "Metal",
+      "era": "2000s",
+      "region": "Europa",
+      "description": "Black metal introspectivo com temas de depressão e suicídio. Xasthur, Shining, Leviathan. Som deliberadamente lo-fi.",
+      "isFusion": false
+    },
+    {
+      "id": "glam_metal",
+      "name": "Glam Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA (Los Angeles)",
+      "description": "Heavy metal com estética glam e músicas pop acessíveis. Poison, Mötley Crüe, Twisted Sister. Dominante nos anos 80.",
+      "isFusion": false
+    },
+    {
+      "id": "punk",
+      "name": "Punk",
+      "category": "Punk",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Movimento musical e contracultural dos anos 70. Som cru, direto e rápido. The Ramones, Sex Pistols, The Clash.",
+      "isFusion": false
+    },
+    {
+      "id": "hardcore_punk",
+      "name": "Hardcore Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Punk mais rápido, agressivo e politizado. Minor Threat, Black Flag, Dead Kennedys. Música como ato político.",
+      "isFusion": false
+    },
+    {
+      "id": "post_punk",
+      "name": "Post-Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Evolução do punk com maior experimentação. Joy Division, The Cure, Wire. Mais sombrio, artístico e texturizado.",
+      "isFusion": false
+    },
+    {
+      "id": "anarcho_punk",
+      "name": "Anarcho-Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Punk com ideologia anarquista explícita. Crass, Conflict. DIY radical, pacifismo e crítica ao capitalismo.",
+      "isFusion": false
+    },
+    {
+      "id": "ska_punk",
+      "name": "Ska-Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "EUA/Reino Unido",
+      "description": "Fusão de ska com punk. The Mighty Mighty Bosstones, Rancid, Operation Ivy. Energético e festivo.",
+      "isFusion": true
+    },
+    {
+      "id": "crust_punk",
+      "name": "Crust Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Punk extremo com influências de metal e d-beat. Som sujo e político. Discharge, Amebix.",
+      "isFusion": false
+    },
+    {
+      "id": "cowpunk",
+      "name": "Cowpunk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de country com punk rock. The Meat Puppets, Jason & the Scorchers. Atitude punk com sonoridade country.",
+      "isFusion": true
+    },
+    {
+      "id": "street_punk",
+      "name": "Street Punk",
+      "category": "Punk",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Punk operário dos anos 80 com estética Oi! GBH, The Exploited. Letras sobre vida urbana e classe trabalhadora.",
+      "isFusion": false
+    },
+    {
+      "id": "proto_punk",
+      "name": "Proto-Punk",
+      "category": "Punk",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Precursores do punk dos anos 60-70. The Stooges, MC5, New York Dolls. Energia crua que antecipou o movimento.",
+      "isFusion": false
+    },
+    {
+      "id": "post_hardcore",
+      "name": "Post-Hardcore",
+      "category": "Punk",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Evolução artística do hardcore punk. Fugazi, At the Drive-In, Refused. Mais experimental e emocional.",
+      "isFusion": false
+    },
+    {
+      "id": "noise_rock",
+      "name": "Noise Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rock com uso intencional de feedback e dissonância. Sonic Youth, Big Black, Swans. Som abrasivo e experimental.",
+      "isFusion": false
+    },
+    {
+      "id": "no_wave",
+      "name": "No Wave",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Movimento de vanguarda de Nova Iorque dos anos 70. Recusa deliberada de melodia e estrutura. James Chance, DNA, Teenage Jesus.",
+      "isFusion": false
+    },
+    {
+      "id": "jazz",
+      "name": "Jazz",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "EUA (Nova Orleães)",
+      "description": "Género surgido em Nova Orleães no início do século XX. Fusão de blues, ragtime e música europeia. Improviso, swing e expressão individual são a sua essência.",
+      "isFusion": false
+    },
+    {
+      "id": "dixieland",
+      "name": "Dixieland",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "EUA (Nova Orleães)",
+      "description": "Jazz tradicional de Nova Orleães com improvisação coletiva. Trompete, clarinete e trombone em diálogo animado. Louis Armstrong, Jelly Roll Morton.",
+      "isFusion": false
+    },
+    {
+      "id": "swing",
+      "name": "Swing",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Jazz orquestral dançante dos anos 30-40. Big bands com arranjos precisos. Benny Goodman, Count Basie, Duke Ellington. Era do jazz popular.",
+      "isFusion": false
+    },
+    {
+      "id": "bebop",
+      "name": "Bebop",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Revolução jazzística dos anos 40. Tempos rápidos, harmonias complexas, improvisação virtuosa. Charlie Parker, Dizzy Gillespie.",
+      "isFusion": false
+    },
+    {
+      "id": "cool_jazz",
+      "name": "Cool Jazz",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Jazz mais tranquilo e cerebral dos anos 50. Reação ao bebop. Miles Davis, Dave Brubeck, Chet Baker. Timbre relaxado.",
+      "isFusion": false
+    },
+    {
+      "id": "hard_bop",
+      "name": "Hard Bop",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Bebop com mais influência de blues e gospel. Art Blakey, Horace Silver. Mais apaixonado e funky que o bebop puro.",
+      "isFusion": false
+    },
+    {
+      "id": "modal_jazz",
+      "name": "Modal Jazz",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Jazz baseado em modos em vez de progressões harmónicas rápidas. Miles Davis 'Kind of Blue', John Coltrane.",
+      "isFusion": false
+    },
+    {
+      "id": "free_jazz",
+      "name": "Free Jazz",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Abolição de estrutura harmónica e rítmica fixa. Ornette Coleman, Albert Ayler, Cecil Taylor. Expressão absoluta.",
+      "isFusion": false
+    },
+    {
+      "id": "jazz_fusion",
+      "name": "Jazz Fusion",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Fusão de jazz com rock, funk e música elétrica. Miles Davis 'Bitches Brew', Weather Report.",
+      "isFusion": true
+    },
+    {
+      "id": "acid_jazz",
+      "name": "Acid Jazz",
+      "category": "Jazz",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Revivalismo jazz dos anos 90 com influências de funk, soul e hip hop. Jamiroquai, The Brand New Heavies.",
+      "isFusion": false
+    },
+    {
+      "id": "nu_jazz",
+      "name": "Nu-Jazz",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa",
+      "description": "Jazz contemporâneo com electrónica, ambient e experimentação. Nils Frahm, Matthew Herbert.",
+      "isFusion": true
+    },
+    {
+      "id": "latin_jazz",
+      "name": "Latin Jazz",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "Cuba/EUA",
+      "description": "Fusão de jazz com ritmos latinos, especialmente cubanos. Tito Puente, Chucho Valdés, Irakere.",
+      "isFusion": true
+    },
+    {
+      "id": "afrocuban_jazz",
+      "name": "Afro-Cuban Jazz",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "Cuba/EUA",
+      "description": "Fusão de jazz com música afrocubana. Dizzy Gillespie, Chano Pozo. Mambo, son cubano e jazz entretecidos.",
+      "isFusion": true
+    },
+    {
+      "id": "jazz_funk",
+      "name": "Jazz-Funk",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Fusão de jazz com funk e soul. Herbie Hancock 'Head Hunters'. Ritmos groovy com improvisação jazzística.",
+      "isFusion": true
+    },
+    {
+      "id": "smooth_jazz",
+      "name": "Smooth Jazz",
+      "category": "Jazz",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Jazz suave e acessível para rádio, com influências de R&B e pop. Kenny G, George Benson.",
+      "isFusion": false
+    },
+    {
+      "id": "post_bop",
+      "name": "Post-Bop",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Jazz que incorpora elementos modais, free e avant-garde mantendo estrutura. Wayne Shorter, Herbie Hancock.",
+      "isFusion": false
+    },
+    {
+      "id": "jazz_manouche",
+      "name": "Jazz Manouche / Gypsy Jazz",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "França/Europa",
+      "description": "Jazz cigano europeu. Django Reinhardt e Stéphane Grappelli. Guitarra acústica veloz com swing parisiense.",
+      "isFusion": false
+    },
+    {
+      "id": "chamber_jazz",
+      "name": "Chamber Jazz",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA/Europa",
+      "description": "Jazz de câmara com influências da música clássica. Paul Desmond, Jim Hall, ECM Records.",
+      "isFusion": false
+    },
+    {
+      "id": "avantgarde_jazz",
+      "name": "Jazz de Vanguarda",
+      "category": "Jazz",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Jazz experimental que rompe com todas as convenções. AACM, Anthony Braxton, Art Ensemble of Chicago.",
+      "isFusion": false
+    },
+    {
+      "id": "ecm_jazz",
+      "name": "ECM Jazz",
+      "category": "Jazz",
+      "era": "late20",
+      "region": "Europa (Alemanha)",
+      "description": "Som introspectivo e etéreo associado à editora ECM Records. Keith Jarrett, Jan Garbarek.",
+      "isFusion": false
+    },
+    {
+      "id": "blues",
+      "name": "Blues",
+      "category": "Blues",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Género fundamental surgido no sul dos EUA. Progressão de 12 compassos, pentatónica, 'blue notes'. Raiz de quase toda a música popular ocidental.",
+      "isFusion": false
+    },
+    {
+      "id": "delta_blues",
+      "name": "Delta Blues",
+      "category": "Blues",
+      "era": "early20",
+      "region": "EUA (Mississippi Delta)",
+      "description": "Blues cru do Delta do Mississippi. Robert Johnson, Son House. Guitarra slide e voz agonizante.",
+      "isFusion": false
+    },
+    {
+      "id": "chicago_blues",
+      "name": "Chicago Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA (Chicago)",
+      "description": "Blues amplificado de Chicago. Muddy Waters, Howlin' Wolf. Guitarra elétrica, harmónica e banda completa.",
+      "isFusion": false
+    },
+    {
+      "id": "electric_blues",
+      "name": "Electric Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Blues com guitarra elétrica amplificada. B.B. King, Buddy Guy, Stevie Ray Vaughan.",
+      "isFusion": false
+    },
+    {
+      "id": "country_blues",
+      "name": "Country Blues",
+      "category": "Blues",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Blues rural acústico do sul dos EUA. Guitarra de dedo e voz solo. Robert Johnson, Mississippi John Hurt.",
+      "isFusion": false
+    },
+    {
+      "id": "piedmont_blues",
+      "name": "Piedmont Blues",
+      "category": "Blues",
+      "era": "early20",
+      "region": "EUA (Costa Leste)",
+      "description": "Blues acústico da costa leste com fingerpicking complexo inspirado no ragtime. Blind Blake, Reverend Gary Davis.",
+      "isFusion": false
+    },
+    {
+      "id": "jump_blues",
+      "name": "Jump Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Blues animado dos anos 40 precursor do rock and roll. Louis Jordan, Big Joe Turner.",
+      "isFusion": false
+    },
+    {
+      "id": "texas_blues",
+      "name": "Texas Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA (Texas)",
+      "description": "Blues do Texas com estilo de guitarra distinto e influências de swing. T-Bone Walker, Stevie Ray Vaughan.",
+      "isFusion": false
+    },
+    {
+      "id": "soul_blues",
+      "name": "Soul Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA (Sul)",
+      "description": "Fusão de blues com soul. Bobby Blue Bland, Little Milton. Voz expressiva e arranjos com cordas.",
+      "isFusion": false
+    },
+    {
+      "id": "hill_country_blues",
+      "name": "Hill Country Blues",
+      "category": "Blues",
+      "era": "early20",
+      "region": "EUA (Mississippi Norte)",
+      "description": "Blues hipnótico do norte do Mississippi. Junior Kimbrough, R.L. Burnside. Ritmo repetitivo, trance-like.",
+      "isFusion": false
+    },
+    {
+      "id": "swamp_blues",
+      "name": "Swamp Blues",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "EUA (Louisiana)",
+      "description": "Blues pantanoso da Louisiana. Slim Harpo, Lightnin' Slim. Grooves lentos e atmosfera sombria.",
+      "isFusion": false
+    },
+    {
+      "id": "rnb_soul",
+      "name": "R&B / Soul",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Abrangendo rhythm and blues, soul e funk. Género central da música negra americana. Precursor do rock and roll.",
+      "isFusion": false
+    },
+    {
+      "id": "soul",
+      "name": "Soul",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Fusão de gospel com R&B dos anos 60. Aretha Franklin, Sam Cooke, Marvin Gaye. Emoção pura e voz poderosa.",
+      "isFusion": false
+    },
+    {
+      "id": "funk",
+      "name": "Funk",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Groove rítmico baseado no beat do 'one'. James Brown, Parliament-Funkadelic. Baixo dominante e síncopa agressiva.",
+      "isFusion": false
+    },
+    {
+      "id": "motown",
+      "name": "Motown",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA (Detroit)",
+      "description": "Som pop-soul polido da editora Motown Records. The Supremes, Stevie Wonder, Marvin Gaye.",
+      "isFusion": false
+    },
+    {
+      "id": "neo_soul",
+      "name": "Neo Soul",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Revivalismo soul dos anos 90-2000 com influências de jazz e hip hop. D'Angelo, Erykah Badu, Lauryn Hill.",
+      "isFusion": false
+    },
+    {
+      "id": "contemporary_rnb",
+      "name": "Contemporary R&B",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "R&B moderno com produção eletrónica. Whitney Houston, Mariah Carey, Beyoncé.",
+      "isFusion": false
+    },
+    {
+      "id": "new_jack_swing",
+      "name": "New Jack Swing",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de R&B com hip hop e batidas eletrónicas. Teddy Riley, Bobby Brown, Janet Jackson.",
+      "isFusion": true
+    },
+    {
+      "id": "quiet_storm",
+      "name": "Quiet Storm",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "R&B suave e romântico de rádio. Luther Vandross, Sade. Slow jams sensuais.",
+      "isFusion": false
+    },
+    {
+      "id": "disco",
+      "name": "Disco",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Música de dança dos anos 70 com beats de 4/4 marcantes. Donna Summer, Bee Gees, ABBA. Glitter e hedonismo.",
+      "isFusion": false
+    },
+    {
+      "id": "boogie",
+      "name": "Boogie",
+      "category": "R&B / Soul",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Precursor da house music, funk eletrónico do final dos anos 70. Giorgio Moroder, Chic.",
+      "isFusion": false
+    },
+    {
+      "id": "philly_soul",
+      "name": "Philly Soul",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA (Filadélfia)",
+      "description": "Soul orquestral da Filadélfia. The O'Jays, Harold Melvin, MFSB. Produção luxuriante com cordas e metais.",
+      "isFusion": false
+    },
+    {
+      "id": "southern_soul",
+      "name": "Southern Soul",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA (Sul)",
+      "description": "Soul cru do sul dos EUA com fortes raízes no blues e gospel. Otis Redding, Wilson Pickett.",
+      "isFusion": false
+    },
+    {
+      "id": "memphis_soul",
+      "name": "Memphis Soul",
+      "category": "R&B / Soul",
+      "era": "mid20",
+      "region": "EUA (Memphis)",
+      "description": "Soul raw de Memphis. Stax Records, Al Green, Isaac Hayes. Órgão Hammond e batida nervosa.",
+      "isFusion": false
+    },
+    {
+      "id": "trip_hop",
+      "name": "Trip-Hop",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Reino Unido (Bristol)",
+      "description": "Fusão de hip hop com soul, jazz e electrónica. Portishead, Massive Attack. Beats lentos e atmosfera sombria.",
+      "isFusion": true
+    },
+    {
+      "id": "ragtime",
+      "name": "Ragtime",
+      "category": "Jazz",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Precursor do jazz com ritmos sincopados ao piano. Scott Joplin. Popular nos finais do século XIX.",
+      "isFusion": false
+    },
+    {
+      "id": "electronic",
+      "name": "Electrónica",
+      "category": "Electrónica",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Música produzida com instrumentos eletrónicos e tecnologia. Abrange desde ambient a techno, do IDM ao house.",
+      "isFusion": false
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA (Chicago)",
+      "description": "Música de dança eletrónica surgida em Chicago nos anos 80. 4/4 com baixo do bombo em cada tempo. Frankie Knuckles.",
+      "isFusion": false
+    },
+    {
+      "id": "deep_house",
+      "name": "Deep House",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA (Chicago/Nova Iorque)",
+      "description": "House mais introspectivo com influências de jazz e soul. Larry Heard aka Mr. Fingers.",
+      "isFusion": false
+    },
+    {
+      "id": "tech_house",
+      "name": "Tech House",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Fusão de house com elementos techno. Grooves funcionais com minimalismo. Green Velvet.",
+      "isFusion": false
+    },
+    {
+      "id": "progressive_house",
+      "name": "Progressive House",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "House com progressões longas e builds dramáticos. Sasha, Digweed, Pete Tong.",
+      "isFusion": false
+    },
+    {
+      "id": "tribal_house",
+      "name": "Tribal House",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA",
+      "description": "House com percussões tribais africanas e latinos. Melodias hipnóticas e batidas intensas.",
+      "isFusion": false
+    },
+    {
+      "id": "afro_house",
+      "name": "Afro House",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "África do Sul",
+      "description": "Fusão de house com percussões e melodias africanas. Black Coffee, Enoo Napa.",
+      "isFusion": true
+    },
+    {
+      "id": "techno",
+      "name": "Techno",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA (Detroit)",
+      "description": "Música de dança industrial surgida em Detroit. Juan Atkins, Derrick May, Kevin Saunderson. Repetitivo, futurista.",
+      "isFusion": false
+    },
+    {
+      "id": "detroit_techno",
+      "name": "Detroit Techno",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA (Detroit)",
+      "description": "Techno original de Detroit dos anos 80. Influências de Kraftwerk e funk afroamericano.",
+      "isFusion": false
+    },
+    {
+      "id": "minimal_techno",
+      "name": "Minimal Techno",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Alemanha (Berlim)",
+      "description": "Techno depurado ao mínimo essencial. Ricardo Villalobos, Richie Hawtin. Faixas longas hipnóticas.",
+      "isFusion": false
+    },
+    {
+      "id": "melodic_techno",
+      "name": "Melodic Techno",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Alemanha",
+      "description": "Techno com melodias emotivas e progressões harmónicas. Innervisions label, Dixon, Âme.",
+      "isFusion": false
+    },
+    {
+      "id": "industrial_techno",
+      "name": "Industrial Techno",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Techno brutal com influências industriais. Regis, Surgeon. Som mecânico, abrasivo e agressivo.",
+      "isFusion": false
+    },
+    {
+      "id": "trance",
+      "name": "Trance",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Alemanha",
+      "description": "Eletrónica de alta energia com progressões melódicas repetitivas indutoras de transe. Paul van Dyk, Tiësto.",
+      "isFusion": false
+    },
+    {
+      "id": "psytrance",
+      "name": "Psytrance",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Israel/Goa",
+      "description": "Trance psicodélico surgido em Goa com BPM rápido e elementos tribais. Infected Mushroom.",
+      "isFusion": false
+    },
+    {
+      "id": "goa_trance",
+      "name": "Goa Trance",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Índia (Goa)",
+      "description": "Precursor do psytrance surgido nas praias de Goa. Hallucinogen. Atmosfera espiritual e psicodélica.",
+      "isFusion": false
+    },
+    {
+      "id": "dark_trance",
+      "name": "Dark Trance",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Trance com atmosferas sombrias e tensão dramática.",
+      "isFusion": false
+    },
+    {
+      "id": "drum_and_bass",
+      "name": "Drum and Bass",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Breakbeats acelerados (160-180 BPM) com sub-baixo pesado. Goldie, LTJ Bukem. Surgiu do hardcore rave.",
+      "isFusion": false
+    },
+    {
+      "id": "liquid_dnb",
+      "name": "Liquid DnB",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Drum and bass atmosférico e melódico. LTJ Bukem, Hospital Records.",
+      "isFusion": false
+    },
+    {
+      "id": "neurofunk",
+      "name": "Neurofunk",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Drum and bass técnico e futurista. Noisia, Black Sun Empire. Baixos complexos.",
+      "isFusion": false
+    },
+    {
+      "id": "dubstep",
+      "name": "Dubstep",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Reino Unido",
+      "description": "Electrónica com baixos oscilantes e síncopas. Surgiu em Londres. Skream, Benga. Evolução do UK Garage.",
+      "isFusion": true
+    },
+    {
+      "id": "brostep",
+      "name": "Brostep",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Dubstep americano mais agressivo com baixos pesados e drops dramáticos. Skrillex, Excision.",
+      "isFusion": false
+    },
+    {
+      "id": "post_dubstep",
+      "name": "Post-Dubstep",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Reino Unido",
+      "description": "Evolução do dubstep após a comercialização. James Blake, Mount Kimbie. Introspectivo e experimental.",
+      "isFusion": false
+    },
+    {
+      "id": "ambient",
+      "name": "Ambient",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Música atmosférica e imersiva. Brian Eno. Texturas lentas para modificar o ambiente.",
+      "isFusion": false
+    },
+    {
+      "id": "dark_ambient",
+      "name": "Dark Ambient",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Ambient sombrio e perturbador. Coil, Lustmord. Drones industriais e paisagens sonoras claustrofóbicas.",
+      "isFusion": false
+    },
+    {
+      "id": "idm",
+      "name": "IDM",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Intelligent Dance Music — electrónica experimental e cerebral. Aphex Twin, Autechre. Complexidade rítmica extrema.",
+      "isFusion": false
+    },
+    {
+      "id": "electro",
+      "name": "Electro",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Electrónica baseada na Roland TR-808. Afrika Bambaataa 'Planet Rock'. Precursor do hip hop.",
+      "isFusion": false
+    },
+    {
+      "id": "hardcore_techno",
+      "name": "Hardcore Techno",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Techno extremamente rápido e distorcido (160-200+ BPM). Precursor do gabber e hardstyle.",
+      "isFusion": false
+    },
+    {
+      "id": "gabber",
+      "name": "Gabber",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Países Baixos",
+      "description": "Hardcore techno de Rotterdam com BPMs de 180-220 e kicks distorcidos.",
+      "isFusion": false
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Precursor do drum and bass com breakbeats e basslines reggae. Darkside rave britânico.",
+      "isFusion": false
+    },
+    {
+      "id": "breakbeat",
+      "name": "Breakbeat",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA/Reino Unido",
+      "description": "Electrónica baseada em breakbeats sincopados. The Chemical Brothers, The Prodigy.",
+      "isFusion": false
+    },
+    {
+      "id": "uk_garage",
+      "name": "UK Garage",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Electrónica dançante britânica dos anos 90 com influências de house e R&B. Craig David.",
+      "isFusion": false
+    },
+    {
+      "id": "two_step",
+      "name": "2-Step",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Subgénero do UK Garage com ritmos sincopados. Artful Dodger. Base para o grime.",
+      "isFusion": false
+    },
+    {
+      "id": "grime",
+      "name": "Grime",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Reino Unido (Londres)",
+      "description": "Fusão de UK Garage com hip hop e dancehall. Dizzee Rascal, Wiley, Skepta.",
+      "isFusion": true
+    },
+    {
+      "id": "future_bass",
+      "name": "Future Bass",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "EDM melódico com sintetizadores pitched e drops emotivos. Flume, Illenium.",
+      "isFusion": false
+    },
+    {
+      "id": "witch_house",
+      "name": "Witch House",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Internet",
+      "description": "Electrónica sombria com estética ocultista, beats lentos e hip hop slowed down. SALEM, Crystal Castles.",
+      "isFusion": true
+    },
+    {
+      "id": "vaporwave",
+      "name": "Vaporwave",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Internet",
+      "description": "Género estético de internet que sampla smooth jazz e city pop dos anos 80-90 a velocidade reduzida.",
+      "isFusion": true
+    },
+    {
+      "id": "synthwave",
+      "name": "Synthwave",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Electrónica nostálgica dos anos 80 com sintetizadores analógicos. Kavinsky. Estética retrofuturista.",
+      "isFusion": false
+    },
+    {
+      "id": "darksynth",
+      "name": "Darksynth",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Synthwave sombrio e agressivo com influências de metal. Perturbator, Carpenter Brut.",
+      "isFusion": true
+    },
+    {
+      "id": "ebm",
+      "name": "EBM",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Bélgica/Alemanha",
+      "description": "Electronic Body Music. Industrial dançante com baixos martelantes e vocais rasgados. Front 242.",
+      "isFusion": false
+    },
+    {
+      "id": "noise",
+      "name": "Noise / Noise Music",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Japão/EUA",
+      "description": "Música que usa o ruído como material primário, rejeitando a melodia clássica. Merzbow, Wolf Eyes.",
+      "isFusion": false
+    },
+    {
+      "id": "glitch",
+      "name": "Glitch",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Global",
+      "description": "Electrónica que explora falhas digitais como elemento musical. Oval, Fennesz.",
+      "isFusion": false
+    },
+    {
+      "id": "chillwave",
+      "name": "Chillwave",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Electrónica nostálgica com synths cassete e vozes subaquáticas. Washed Out, Toro y Moi.",
+      "isFusion": false
+    },
+    {
+      "id": "hyperpop",
+      "name": "Hyperpop",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Reino Unido/Global",
+      "description": "Pop eletrónico maximialista com agressão digital. 100 gecs, Sophie, Charli XCX.",
+      "isFusion": true
+    },
+    {
+      "id": "phonk",
+      "name": "Phonk",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA/Global",
+      "description": "Trap influenciado por Memphis rap dos anos 90. Samples de DJ Screw, 808s e vibrato.",
+      "isFusion": false
+    },
+    {
+      "id": "jersey_club",
+      "name": "Jersey Club",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA (Nova Jersey)",
+      "description": "Fusão de house com hip hop de Newark. Beats de 130+ BPM com triplets e bed squeaks.",
+      "isFusion": true
+    },
+    {
+      "id": "hardstyle",
+      "name": "Hardstyle",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Países Baixos",
+      "description": "Electrónica de alta energia com kicks reverse bass e melodias épicas. Headhunterz.",
+      "isFusion": false
+    },
+    {
+      "id": "frenchcore",
+      "name": "Frenchcore",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "França",
+      "description": "Hardcore francês com BPMs de 180-200 e influências industriais.",
+      "isFusion": false
+    },
+    {
+      "id": "footwork",
+      "name": "Footwork / Juke",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA (Chicago)",
+      "description": "Música para dança de pés de Chicago. 160 BPM, samples vocais fragmentados. DJ Rashad.",
+      "isFusion": false
+    },
+    {
+      "id": "lofi_hiphop",
+      "name": "Lo-fi Hip Hop",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "Internet",
+      "description": "Hip hop chill com samples de jazz e crackling de vinil. Ambiance de estudar. Nujabes.",
+      "isFusion": false
+    },
+    {
+      "id": "hiphop",
+      "name": "Hip Hop",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Cultura e género musical do Bronx dos anos 70. DJ-ing, MCing, breakdance e graffiti.",
+      "isFusion": false
+    },
+    {
+      "id": "old_school_hiphop",
+      "name": "Old School Hip Hop",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Hip hop original de 1979-1985. Sugarhill Gang, Grandmaster Flash. Festivo e revolucionário.",
+      "isFusion": false
+    },
+    {
+      "id": "boom_bap",
+      "name": "Boom Bap",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Hip hop clássico dos anos 90. Kickdrum pesado e snare nítido. Nas, Wu-Tang Clan.",
+      "isFusion": false
+    },
+    {
+      "id": "west_coast_rap",
+      "name": "West Coast Hip Hop",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Los Angeles)",
+      "description": "Hip hop da Califórnia. Dr. Dre, Snoop Dogg, Tupac.",
+      "isFusion": false
+    },
+    {
+      "id": "east_coast_rap",
+      "name": "East Coast Hip Hop",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Hip hop de Nova Iorque e arredores. Jay-Z, Nas. Líricas complexas e beats sampleados.",
+      "isFusion": false
+    },
+    {
+      "id": "gangsta_rap",
+      "name": "Gangsta Rap",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rap que descreve a vida nas gangues urbanas. N.W.A, Ice-T. Polémico e revelador.",
+      "isFusion": false
+    },
+    {
+      "id": "trap",
+      "name": "Trap",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA (Atlanta)",
+      "description": "Hip hop de Atlanta com hi-hats em triplets e 808 sub-bass. T.I., Gucci Mane.",
+      "isFusion": false
+    },
+    {
+      "id": "drill",
+      "name": "Drill",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA (Chicago)",
+      "description": "Rap do South Side de Chicago. Chief Keef. Beats sombrios e lentos, letras nihilistas.",
+      "isFusion": false
+    },
+    {
+      "id": "uk_drill",
+      "name": "UK Drill",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "Reino Unido (Londres)",
+      "description": "Versão britânica do drill. Pop Smoke (adaptou a NY), Headie One. Flows sincopados sobre beats sombrios.",
+      "isFusion": true
+    },
+    {
+      "id": "cloud_rap",
+      "name": "Cloud Rap",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Rap onírico e experimental com beats atmosféricos. Clams Casino, A$AP Rocky.",
+      "isFusion": false
+    },
+    {
+      "id": "conscious_hiphop",
+      "name": "Conscious Hip Hop",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Hip hop politicamente comprometido. Mos Def, Kendrick Lamar. Crítica social e afirmação.",
+      "isFusion": false
+    },
+    {
+      "id": "jazz_rap",
+      "name": "Jazz Rap",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de hip hop com samples de jazz. A Tribe Called Quest, De La Soul. Sofisticação e groove.",
+      "isFusion": true
+    },
+    {
+      "id": "crunk",
+      "name": "Crunk",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA (Memphis/Atlanta)",
+      "description": "Hip hop de energia extrema e gritos em coro. Lil Jon, Three 6 Mafia. Música de festa.",
+      "isFusion": false
+    },
+    {
+      "id": "g_funk",
+      "name": "G-Funk",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Los Angeles)",
+      "description": "Gangsta rap com samples de funk dos anos 70 e sintetizadores. Dr. Dre 'The Chronic'.",
+      "isFusion": true
+    },
+    {
+      "id": "emo_rap",
+      "name": "Emo Rap",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Fusão de hip hop com emo. XXXTentacion, Lil Peep. Vulnerabilidade emocional sobre beats trap.",
+      "isFusion": true
+    },
+    {
+      "id": "soundcloud_rap",
+      "name": "SoundCloud Rap",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Hip hop surgido no SoundCloud. Produção raw, mumble rap e estética punk.",
+      "isFusion": false
+    },
+    {
+      "id": "memphis_rap",
+      "name": "Memphis Rap",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "EUA (Memphis)",
+      "description": "Rap underground de Memphis dos anos 90. Three 6 Mafia. Som sombrio, baixo lento.",
+      "isFusion": false
+    },
+    {
+      "id": "detroit_rap",
+      "name": "Detroit Rap",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA (Detroit)",
+      "description": "Rap de Detroit com influências industriais. Eminem, Danny Brown. Escuridão urbana.",
+      "isFusion": false
+    },
+    {
+      "id": "pluggnb",
+      "name": "Pluggnb",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Fusão de trap 'plugg' com R&B. Melodias melancólicas sobre beats plugg distorcidos.",
+      "isFusion": true
+    },
+    {
+      "id": "rage_rap",
+      "name": "Rage Rap",
+      "category": "Hip Hop",
+      "era": "modern",
+      "region": "EUA",
+      "description": "Sub-género do trap com energia agressiva e gritos. Playboi Carti. Estética caótica.",
+      "isFusion": false
+    },
+    {
+      "id": "pop",
+      "name": "Pop",
+      "category": "Pop",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Música popular acessível e comercial. Melodias cativantes e estruturas simples.",
+      "isFusion": false
+    },
+    {
+      "id": "bubblegum_pop",
+      "name": "Bubblegum Pop",
+      "category": "Pop",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Pop ultra-açucarado e simples para jovens. The Archies, The Monkees.",
+      "isFusion": false
+    },
+    {
+      "id": "synth_pop",
+      "name": "Synth-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Pop com sintetizadores como instrumento dominante. Depeche Mode, A-ha. Anos 80.",
+      "isFusion": false
+    },
+    {
+      "id": "electropop",
+      "name": "Electropop",
+      "category": "Pop",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Pop moderno com produção eletrónica forte. Lady Gaga, Robyn.",
+      "isFusion": true
+    },
+    {
+      "id": "dream_pop",
+      "name": "Dream Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Pop etéreo com guitarras com reverb e vozes oníricas. Cocteau Twins, Beach House.",
+      "isFusion": false
+    },
+    {
+      "id": "chamber_pop",
+      "name": "Chamber Pop",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Pop com arranjos de câmara clássicos. Sufjan Stevens, Belle & Sebastian.",
+      "isFusion": true
+    },
+    {
+      "id": "baroque_pop",
+      "name": "Baroque Pop",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Pop dos anos 60 com arranjos barrocos. The Beatles 'Eleanor Rigby'.",
+      "isFusion": true
+    },
+    {
+      "id": "sunshine_pop",
+      "name": "Sunshine Pop",
+      "category": "Pop",
+      "era": "mid20",
+      "region": "EUA (Califórnia)",
+      "description": "Pop californiano dos anos 60. The Beach Boys. Harmonias vocais complexas.",
+      "isFusion": false
+    },
+    {
+      "id": "art_pop",
+      "name": "Art Pop",
+      "category": "Pop",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Pop com ambições artísticas de vanguarda. David Bowie, Kate Bush, Björk.",
+      "isFusion": false
+    },
+    {
+      "id": "indie_pop",
+      "name": "Indie Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Reino Unido/EUA",
+      "description": "Pop independente com estética DIY e sensibilidade alternativa. The Smiths.",
+      "isFusion": false
+    },
+    {
+      "id": "dance_pop",
+      "name": "Dance-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Pop orientado para a pista de dança. Madonna, Michael Jackson.",
+      "isFusion": false
+    },
+    {
+      "id": "teen_pop",
+      "name": "Teen Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Pop comercial para adolescentes. Britney Spears, Backstreet Boys.",
+      "isFusion": false
+    },
+    {
+      "id": "kpop",
+      "name": "K-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Coreia do Sul",
+      "description": "Pop coreano ultra-produzido com coreografias precisas. BTS, BLACKPINK.",
+      "isFusion": false
+    },
+    {
+      "id": "jpop",
+      "name": "J-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Japão",
+      "description": "Pop japonês com influências ocidentais. Perfume, Hikaru Utada.",
+      "isFusion": false
+    },
+    {
+      "id": "cpop",
+      "name": "C-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "China/Taiwan",
+      "description": "Pop chinês e mandarim. Jay Chou. Funde estilos ocidentais com Ásia.",
+      "isFusion": false
+    },
+    {
+      "id": "mandopop",
+      "name": "Mandopop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Taiwan/China",
+      "description": "Pop em mandarim. Teresa Teng. Baladas românticas e melodias.",
+      "isFusion": false
+    },
+    {
+      "id": "eurodance",
+      "name": "Eurodance",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Dança eletrónica europeia dos anos 90. Ace of Base, Eiffel 65.",
+      "isFusion": false
+    },
+    {
+      "id": "italo_disco",
+      "name": "Italo Disco",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Itália",
+      "description": "Disco italiano dos anos 80 com sintetizadores e vozes artificiais. Precursor da eurobeat.",
+      "isFusion": false
+    },
+    {
+      "id": "nu_disco",
+      "name": "Nu-Disco",
+      "category": "Pop",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Revivalismo do disco com produção moderna. Daft Punk, Todd Terje.",
+      "isFusion": false
+    },
+    {
+      "id": "city_pop",
+      "name": "City Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Japão",
+      "description": "Pop japonês dos anos 70-80 com jazz-fusion e funk. Tatsuro Yamashita.",
+      "isFusion": false
+    },
+    {
+      "id": "country_pop",
+      "name": "Country Pop",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão de country com pop mainstream. Shania Twain, Taylor Swift.",
+      "isFusion": true
+    },
+    {
+      "id": "bedroom_pop",
+      "name": "Bedroom Pop",
+      "category": "Pop",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Pop gravado em casa com produção lo-fi intencional. Clairo, Beabadoobee.",
+      "isFusion": false
+    },
+    {
+      "id": "sophisti_pop",
+      "name": "Sophisti-Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Pop sofisticado dos anos 80 com jazz e R&B. Sade, Simply Red.",
+      "isFusion": true
+    },
+    {
+      "id": "jangle_pop",
+      "name": "Jangle Pop",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Reino Unido/EUA",
+      "description": "Pop com guitarras limpas e tintinantes dos anos 80. R.E.M., The Smiths.",
+      "isFusion": false
+    },
+    {
+      "id": "country",
+      "name": "Country",
+      "category": "Country",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Música rural americana com raízes em folk europeu e blues. Nashville como capital.",
+      "isFusion": false
+    },
+    {
+      "id": "classic_country",
+      "name": "Classic Country",
+      "category": "Country",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Country tradicional. Hank Williams, George Jones. Storytelling americano.",
+      "isFusion": false
+    },
+    {
+      "id": "outlaw_country",
+      "name": "Outlaw Country",
+      "category": "Country",
+      "era": "mid20",
+      "region": "EUA (Texas/Nashville)",
+      "description": "Country rebelde contra o establishment de Nashville. Willie Nelson, Johnny Cash.",
+      "isFusion": false
+    },
+    {
+      "id": "country_rock",
+      "name": "Country Rock",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Fusão de country com rock. Eagles, Creedence Clearwater Revival.",
+      "isFusion": true
+    },
+    {
+      "id": "americana",
+      "name": "Americana",
+      "category": "Country",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Folk, country, blues, rock contemporâneo de raízes. Jason Isbell, Wilco.",
+      "isFusion": true
+    },
+    {
+      "id": "bluegrass",
+      "name": "Bluegrass",
+      "category": "Country",
+      "era": "early20",
+      "region": "EUA (Appalachians)",
+      "description": "Música acústica virtuosa com banjo, fiddle. Bill Monroe.",
+      "isFusion": false
+    },
+    {
+      "id": "alt_country",
+      "name": "Alt-Country",
+      "category": "Country",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Country alternativo com estética indie. Wilco, Neko Case.",
+      "isFusion": false
+    },
+    {
+      "id": "honky_tonk",
+      "name": "Honky Tonk",
+      "category": "Country",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Country de bar. Hank Williams. Piano jangling e steel guitar.",
+      "isFusion": false
+    },
+    {
+      "id": "western_swing",
+      "name": "Western Swing",
+      "category": "Country",
+      "era": "early20",
+      "region": "EUA (Texas)",
+      "description": "Fusão de country com swing jazz dos anos 30-40. Bob Wills.",
+      "isFusion": true
+    },
+    {
+      "id": "texas_country",
+      "name": "Texas Country",
+      "category": "Country",
+      "era": "late20",
+      "region": "EUA (Texas)",
+      "description": "Country independente do Texas. Robert Earl Keen. Honesto e roots.",
+      "isFusion": false
+    },
+    {
+      "id": "nashville_sound",
+      "name": "Nashville Sound",
+      "category": "Country",
+      "era": "mid20",
+      "region": "EUA (Nashville)",
+      "description": "Country polido dos anos 50-60 com cordas. Jim Reeves, Patsy Cline.",
+      "isFusion": false
+    },
+    {
+      "id": "brocountry",
+      "name": "Bro-Country",
+      "category": "Country",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Country pop de 2010s com trucks e festas. Florida Georgia Line.",
+      "isFusion": false
+    },
+    {
+      "id": "folk",
+      "name": "Folk",
+      "category": "Folk",
+      "era": "early20",
+      "region": "Global",
+      "description": "Música tradicional transmitida oralmente. Bob Dylan, Woody Guthrie.",
+      "isFusion": false
+    },
+    {
+      "id": "traditional_folk",
+      "name": "Folk Tradicional",
+      "category": "Folk",
+      "era": "ancient",
+      "region": "Global",
+      "description": "Música folclórica autêntica e regional passada por gerações.",
+      "isFusion": false
+    },
+    {
+      "id": "contemporary_folk",
+      "name": "Folk Contemporâneo",
+      "category": "Folk",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Folk com consciência social. Bob Dylan, Joan Baez, Pete Seeger.",
+      "isFusion": false
+    },
+    {
+      "id": "celtic_folk",
+      "name": "Folk Celta",
+      "category": "Folk",
+      "era": "ancient",
+      "region": "Irlanda/Escócia/Bretanha",
+      "description": "Tradição celta com gaita de foles, fiddle. The Chieftains, Planxty.",
+      "isFusion": false
+    },
+    {
+      "id": "nordic_folk",
+      "name": "Folk Nórdico",
+      "category": "Folk",
+      "era": "ancient",
+      "region": "Escandinávia",
+      "description": "Tradição folk escandinava. Joik sami, nyckelharpa.",
+      "isFusion": false
+    },
+    {
+      "id": "psych_folk",
+      "name": "Psych Folk",
+      "category": "Folk",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Folk psicodélico dos anos 60. Tim Buckley, Nick Drake.",
+      "isFusion": false
+    },
+    {
+      "id": "freak_folk",
+      "name": "Freak Folk",
+      "category": "Folk",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Folk experimental excêntrico. Devendra Banhart, Joanna Newsom.",
+      "isFusion": false
+    },
+    {
+      "id": "anti_folk",
+      "name": "Anti-Folk",
+      "category": "Folk",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Folk punk irónico de NY. Moldy Peaches, Jeffrey Lewis.",
+      "isFusion": false
+    },
+    {
+      "id": "folk_rock",
+      "name": "Folk Rock",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA/Reino Unido",
+      "description": "Fusão de folk com rock elétrico. The Byrds, Simon & Garfunkel.",
+      "isFusion": true
+    },
+    {
+      "id": "folktronica",
+      "name": "Folktronica",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Reino Unido",
+      "description": "Fusão de folk acústico com electrónica. Four Tet.",
+      "isFusion": true
+    },
+    {
+      "id": "neofolk",
+      "name": "Neofolk",
+      "category": "Folk",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Folk experimental sombrio com post-punk. Death in June.",
+      "isFusion": true
+    },
+    {
+      "id": "dark_folk",
+      "name": "Dark Folk",
+      "category": "Folk",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Folk sombrio atmosférico com temas pagãos. Faun.",
+      "isFusion": false
+    },
+    {
+      "id": "acid_folk",
+      "name": "Acid Folk",
+      "category": "Folk",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Folk psicodélico britânico obscuro. Comus, Incredible String Band.",
+      "isFusion": false
+    },
+    {
+      "id": "electric_folk",
+      "name": "Folk Elétrico",
+      "category": "Folk",
+      "era": "mid20",
+      "region": "Reino Unido",
+      "description": "Folk britânico com instrumentação elétrica. Fairport Convention.",
+      "isFusion": false
+    },
+    {
+      "id": "classical",
+      "name": "Música Clássica",
+      "category": "Clássica",
+      "era": "classical",
+      "region": "Europa",
+      "description": "Tradição erudita europeia. Do Gregoriano ao Modernismo.",
+      "isFusion": false
+    },
+    {
+      "id": "gregorian",
+      "name": "Canto Gregoriano",
+      "category": "Clássica",
+      "era": "medieval",
+      "region": "Europa (Roma)",
+      "description": "Canto monofónico litúrgico da Igreja Católica.",
+      "isFusion": false
+    },
+    {
+      "id": "renaissance_poly",
+      "name": "Polifonia Renascentista",
+      "category": "Clássica",
+      "era": "medieval",
+      "region": "Europa",
+      "description": "Música vocal a várias vozes do século XV-XVI. Palestrina.",
+      "isFusion": false
+    },
+    {
+      "id": "baroque",
+      "name": "Barroco",
+      "category": "Clássica",
+      "era": "classical",
+      "region": "Europa",
+      "description": "Música de 1600-1750. Bach, Vivaldi. Ornamentação abundante.",
+      "isFusion": false
+    },
+    {
+      "id": "classicism_music",
+      "name": "Classicismo",
+      "category": "Clássica",
+      "era": "classical",
+      "region": "Europa (Viena)",
+      "description": "Equilíbrio e forma (1750-1820). Mozart, Beethoven, Haydn.",
+      "isFusion": false
+    },
+    {
+      "id": "romanticism",
+      "name": "Romantismo",
+      "category": "Clássica",
+      "era": "classical",
+      "region": "Europa",
+      "description": "Expressão individual intensa do século XIX. Chopin, Wagner.",
+      "isFusion": false
+    },
+    {
+      "id": "impressionism_music",
+      "name": "Impressionismo",
+      "category": "Clássica",
+      "era": "classical",
+      "region": "França",
+      "description": "Música evocativa de cores sonoras. Debussy, Ravel.",
+      "isFusion": false
+    },
+    {
+      "id": "modernism_music",
+      "name": "Modernismo Musical",
+      "category": "Clássica",
+      "era": "early20",
+      "region": "Europa",
+      "description": "Vanguardas do séc. XX. Schoenberg, Stravinsky.",
+      "isFusion": false
+    },
+    {
+      "id": "neoclassicism_music",
+      "name": "Neoclassicismo",
+      "category": "Clássica",
+      "era": "early20",
+      "region": "Europa",
+      "description": "Retorno às formas clássicas. Stravinsky (fase neo).",
+      "isFusion": false
+    },
+    {
+      "id": "serialism",
+      "name": "Serialismo",
+      "category": "Clássica",
+      "era": "early20",
+      "region": "Europa (Viena)",
+      "description": "Composição em série de 12 notas. Schoenberg, Webern.",
+      "isFusion": false
+    },
+    {
+      "id": "dodecaphonism",
+      "name": "Dodecafonismo",
+      "category": "Clássica",
+      "era": "early20",
+      "region": "Europa",
+      "description": "Abolição da tonalidade com 12 semitons. Schoenberg.",
+      "isFusion": false
+    },
+    {
+      "id": "musique_concrete",
+      "name": "Música Concreta",
+      "category": "Experimental",
+      "era": "early20",
+      "region": "França",
+      "description": "Música com sons gravados e manipulados. Pierre Schaeffer.",
+      "isFusion": false
+    },
+    {
+      "id": "minimalism_music",
+      "name": "Minimalismo",
+      "category": "Clássica",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Repetição e mudança gradual. Philip Glass, Steve Reich.",
+      "isFusion": false
+    },
+    {
+      "id": "spectralism",
+      "name": "Espectralismo",
+      "category": "Clássica",
+      "era": "late20",
+      "region": "França",
+      "description": "Baseada na análise espectral do som. Gérard Grisey.",
+      "isFusion": false
+    },
+    {
+      "id": "contemporary_classical",
+      "name": "Música Contemporânea",
+      "category": "Clássica",
+      "era": "modern",
+      "region": "Global",
+      "description": "Composição erudita atual. Diversidade de linguagens.",
+      "isFusion": false
+    },
+    {
+      "id": "electroacoustic",
+      "name": "Música Electroacústica",
+      "category": "Clássica",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Sons acústicos combinados com eletrónica. Stockhausen.",
+      "isFusion": false
+    },
+    {
+      "id": "gospel",
+      "name": "Gospel",
+      "category": "Gospel / Espiritual",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Música religiosa afroamericana cristã. Base do soul. Mahalia Jackson.",
+      "isFusion": false
+    },
+    {
+      "id": "traditional_gospel",
+      "name": "Gospel Tradicional",
+      "category": "Gospel / Espiritual",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Gospel clássico dos anos 30-60. Clara Ward, Sister Rosetta Tharpe.",
+      "isFusion": false
+    },
+    {
+      "id": "contemporary_gospel",
+      "name": "Gospel Contemporâneo",
+      "category": "Gospel / Espiritual",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Gospel com produção moderna e R&B. Kirk Franklin.",
+      "isFusion": false
+    },
+    {
+      "id": "southern_gospel",
+      "name": "Southern Gospel",
+      "category": "Gospel / Espiritual",
+      "era": "early20",
+      "region": "EUA (Sul)",
+      "description": "Gospel branco do Sul com harmonias de quarteto. Gaither Vocal Band.",
+      "isFusion": false
+    },
+    {
+      "id": "negro_spirituals",
+      "name": "Espirituais Negros",
+      "category": "Gospel / Espiritual",
+      "era": "early20",
+      "region": "EUA",
+      "description": "Canções religiosas de escravos afroamericanos. Fundação histórica.",
+      "isFusion": false
+    },
+    {
+      "id": "ccm",
+      "name": "CCM (Contemporary Christian Music)",
+      "category": "Gospel / Espiritual",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Pop e rock cristão mainstream. Amy Grant.",
+      "isFusion": false
+    },
+    {
+      "id": "worship_music",
+      "name": "Worship Music",
+      "category": "Gospel / Espiritual",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Música de adoração de igrejas modernas. Hillsong.",
+      "isFusion": false
+    },
+    {
+      "id": "ska",
+      "name": "Ska",
+      "category": "Reggae",
+      "era": "mid20",
+      "region": "Jamaica",
+      "description": "Género jamaicano dos anos 50/60. Beats upbeat no offbeat. The Skatalites. Precursor de tudo.",
+      "isFusion": false
+    },
+    {
+      "id": "rocksteady",
+      "name": "Rocksteady",
+      "category": "Reggae",
+      "era": "mid20",
+      "region": "Jamaica",
+      "description": "Transição lenta do ska (1966) a caminho do reggae. Alton Ellis.",
+      "isFusion": false
+    },
+    {
+      "id": "reggae",
+      "name": "Reggae",
+      "category": "Reggae",
+      "era": "mid20",
+      "region": "Jamaica",
+      "description": "Evolução do ska/rocksteady no final dos anos 60. Bob Marley, Peter Tosh. Resistência e paz.",
+      "isFusion": false
+    },
+    {
+      "id": "roots_reggae",
+      "name": "Roots Reggae",
+      "category": "Reggae",
+      "era": "mid20",
+      "region": "Jamaica",
+      "description": "Reggae espiritual e rastafari. Burning Spear, Culture.",
+      "isFusion": false
+    },
+    {
+      "id": "dancehall",
+      "name": "Dancehall",
+      "category": "Reggae",
+      "era": "late20",
+      "region": "Jamaica",
+      "description": "Reggae eletrónico e MC. Yellowman, Vybz Kartel.",
+      "isFusion": false
+    },
+    {
+      "id": "dub",
+      "name": "Dub",
+      "category": "Reggae",
+      "era": "mid20",
+      "region": "Jamaica",
+      "description": "Remix instrumental com efeitos (delay/reverb). King Tubby.",
+      "isFusion": false
+    },
+    {
+      "id": "ragga",
+      "name": "Ragga",
+      "category": "Reggae",
+      "era": "late20",
+      "region": "Jamaica",
+      "description": "Dancehall com produção 100% digital. Beenie Man.",
+      "isFusion": false
+    },
+    {
+      "id": "lovers_rock",
+      "name": "Lovers Rock",
+      "category": "Reggae",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Reggae romântico britânico dos anos 70-80.",
+      "isFusion": false
+    },
+    {
+      "id": "reggaeton",
+      "name": "Reggaeton",
+      "category": "Latina",
+      "era": "late20",
+      "region": "Panamá/Porto Rico",
+      "description": "Fusão de reggae em espanhol, dancehall e rap. Daddy Yankee. Ritmo de Dembow.",
+      "isFusion": true
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "category": "Latina",
+      "era": "mid20",
+      "region": "Porto Rico/EUA (Nova Iorque)",
+      "description": "Fusão de música cubana (Son) em NY. Celia Cruz, Héctor Lavoe.",
+      "isFusion": true
+    },
+    {
+      "id": "merengue",
+      "name": "Merengue",
+      "category": "Latina",
+      "era": "early20",
+      "region": "República Dominicana",
+      "description": "Ritmo rápido e alegre dominicano em 2/4. Juan Luis Guerra.",
+      "isFusion": false
+    },
+    {
+      "id": "bachata",
+      "name": "Bachata",
+      "category": "Latina",
+      "era": "mid20",
+      "region": "República Dominicana",
+      "description": "Música romântica dominicana com violão e bongós. Romeo Santos.",
+      "isFusion": false
+    },
+    {
+      "id": "cumbia",
+      "name": "Cumbia",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Colômbia",
+      "description": "Género de raízes africanas e indígenas. Expandiu-se por toda a América Latina.",
+      "isFusion": false
+    },
+    {
+      "id": "bossa_nova",
+      "name": "Bossa Nova",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "Brasil (Rio de Janeiro)",
+      "description": "Samba fundido com jazz. João Gilberto, Tom Jobim.",
+      "isFusion": true
+    },
+    {
+      "id": "samba",
+      "name": "Samba",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Brasil (Rio de Janeiro)",
+      "description": "Música e dança matriz do Brasil. Cartola. Carnaval e percussão rica.",
+      "isFusion": false
+    },
+    {
+      "id": "tango",
+      "name": "Tango",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Argentina/Uruguai",
+      "description": "Dança e música portenha do Río de la Plata. Carlos Gardel, Piazzolla.",
+      "isFusion": false
+    },
+    {
+      "id": "flamenco",
+      "name": "Flamenco",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Espanha (Andaluzia)",
+      "description": "Arte andaluza de raízes ciganas e árabes. Paco de Lucía, Camarón. Duende e virtuosismo.",
+      "isFusion": false
+    },
+    {
+      "id": "son_cubano",
+      "name": "Son Cubano",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Cuba",
+      "description": "Base da música cubana. Ritmo de clave. Buena Vista Social Club.",
+      "isFusion": false
+    },
+    {
+      "id": "bolero_music",
+      "name": "Bolero",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Cuba/México",
+      "description": "Balada romântica latino-americana lenta. Los Panchos.",
+      "isFusion": false
+    },
+    {
+      "id": "tropicalia",
+      "name": "Tropicália",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "Brasil",
+      "description": "Movimento de vanguarda que misturou samba, rock psicodélico e pop. Caetano, Gil.",
+      "isFusion": true
+    },
+    {
+      "id": "mpb",
+      "name": "MPB (Música Popular Brasileira)",
+      "category": "Latina",
+      "era": "mid20",
+      "region": "Brasil",
+      "description": "Música brasileira pós-Bossa Nova com letras poéticas. Chico Buarque, Elis Regina.",
+      "isFusion": false
+    },
+    {
+      "id": "forro",
+      "name": "Forró",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Brasil (Nordeste)",
+      "description": "Música nordestina festiva com sanfona e zabumba. Luiz Gonzaga.",
+      "isFusion": false
+    },
+    {
+      "id": "axe",
+      "name": "Axé Music",
+      "category": "Latina",
+      "era": "late20",
+      "region": "Brasil (Bahia)",
+      "description": "Carnaval baiano pop e eletrónico. Ivete Sangalo, Daniela Mercury.",
+      "isFusion": false
+    },
+    {
+      "id": "funk_carioca",
+      "name": "Funk Carioca",
+      "category": "Latina",
+      "era": "late20",
+      "region": "Brasil (Rio)",
+      "description": "O som das favelas derivado do Miami Bass. Anitta, MC Bin Laden.",
+      "isFusion": true
+    },
+    {
+      "id": "mariachi",
+      "name": "Mariachi",
+      "category": "Latina",
+      "era": "early20",
+      "region": "México (Jalisco)",
+      "description": "Conjunto mexicano com violinos, trompetes e guitarrón. Ícone cultural.",
+      "isFusion": false
+    },
+    {
+      "id": "corrido",
+      "name": "Corrido",
+      "category": "Latina",
+      "era": "early20",
+      "region": "México",
+      "description": "Balada narrativa épica de heróis e bandidos mexicanos.",
+      "isFusion": false
+    },
+    {
+      "id": "vallenato",
+      "name": "Vallenato",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Colômbia (Valledupar)",
+      "description": "Música folclórica colombiana com acordeão e guacharaca. Carlos Vives.",
+      "isFusion": false
+    },
+    {
+      "id": "dembow",
+      "name": "Dembow",
+      "category": "Latina",
+      "era": "late20",
+      "region": "Jamaica/Porto Rico",
+      "description": "Ritmo base do reggaeton e género rápido próprio na Rep. Dominicana.",
+      "isFusion": false
+    },
+    {
+      "id": "latin_trap",
+      "name": "Latin Trap",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Porto Rico/EUA",
+      "description": "Trap em espanhol fundido com batidas latinas. Bad Bunny, Anuel AA.",
+      "isFusion": true
+    },
+    {
+      "id": "world_music",
+      "name": "Música do Mundo",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Global",
+      "description": "Músicas tradicionais e folclore fora do mainstream anglo-saxónico.",
+      "isFusion": false
+    },
+    {
+      "id": "afrobeat",
+      "name": "Afrobeat",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Nigéria",
+      "description": "Fusão de jazz, funk e ritmos yorùbá por Fela Kuti. Crítica e groove.",
+      "isFusion": true
+    },
+    {
+      "id": "highlife",
+      "name": "Highlife",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Gana/Nigéria",
+      "description": "Pop africano ocidental antigo com guitarras e sopros. E.T. Mensah.",
+      "isFusion": false
+    },
+    {
+      "id": "juju_music",
+      "name": "Juju Music",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Nigéria",
+      "description": "Música yorùbá festiva com guitarras elétricas e talking drums. King Sunny Ade.",
+      "isFusion": false
+    },
+    {
+      "id": "soukous",
+      "name": "Soukous",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Congo",
+      "description": "Rumba congolesa rápida com dança sébène. Guitarras entrelaçadas.",
+      "isFusion": false
+    },
+    {
+      "id": "mbalax",
+      "name": "Mbalax",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Senegal",
+      "description": "Percussão sabar senegalesa cruzada com pop moderno. Youssou N'Dour.",
+      "isFusion": false
+    },
+    {
+      "id": "gnawa",
+      "name": "Gnawa",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Marrocos",
+      "description": "Música ritual de transe e cura. Guembri e krakebs.",
+      "isFusion": false
+    },
+    {
+      "id": "chaabi",
+      "name": "Chaâbi",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Marrocos/Argélia",
+      "description": "Música popular urbana do Magrebe com melodias árabes/andaluzas.",
+      "isFusion": false
+    },
+    {
+      "id": "rai",
+      "name": "Raï",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Argélia",
+      "description": "Pop argelino rebelde com influências ocidentais. Khaled.",
+      "isFusion": false
+    },
+    {
+      "id": "afropop",
+      "name": "Afropop",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "África Subsaariana",
+      "description": "Pop africano geral.",
+      "isFusion": false
+    },
+    {
+      "id": "amapiano",
+      "name": "Amapiano",
+      "category": "Música do Mundo",
+      "era": "2000s",
+      "region": "África do Sul",
+      "description": "House deep sul-africano com log drums e piano jazz. Kabza De Small.",
+      "isFusion": true
+    },
+    {
+      "id": "gqom",
+      "name": "Gqom",
+      "category": "Música do Mundo",
+      "era": "2000s",
+      "region": "África do Sul (Durban)",
+      "description": "House minimalista de batidas espartanas. Som de Durban.",
+      "isFusion": false
+    },
+    {
+      "id": "kizomba",
+      "name": "Kizomba",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "Angola",
+      "description": "Dança e música urbana angolana. Sensual e lenta, derivada do semba e zouk.",
+      "isFusion": true
+    },
+    {
+      "id": "semba",
+      "name": "Semba",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Angola",
+      "description": "Ritmo tradicional angolano. Precursor do samba brasileiro e kizomba.",
+      "isFusion": false
+    },
+    {
+      "id": "kuduro",
+      "name": "Kuduro",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "Angola",
+      "description": "Eletrónica angolana extremamente rápida e agressiva. Tony Amado.",
+      "isFusion": false
+    },
+    {
+      "id": "fado",
+      "name": "Fado",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Portugal",
+      "description": "Canção urbana portuguesa de destino e melancolia. Amália Rodrigues.",
+      "isFusion": false
+    },
+    {
+      "id": "arabic_classical",
+      "name": "Música Árabe Clássica",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Médio Oriente",
+      "description": "Tradição árabe erudita. Umm Kulthum.",
+      "isFusion": false
+    },
+    {
+      "id": "maqam",
+      "name": "Maqam",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Médio Oriente",
+      "description": "Sistema modal de improvisação da música árabe.",
+      "isFusion": false
+    },
+    {
+      "id": "qawwali",
+      "name": "Qawwali",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Paquistão/Índia",
+      "description": "Canto devocional sufi de êxtase. Nusrat Fateh Ali Khan.",
+      "isFusion": false
+    },
+    {
+      "id": "bhangra",
+      "name": "Bhangra",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Punjabe (Índia/Paquistão)",
+      "description": "Folk punjabi animado com tambor dhol.",
+      "isFusion": false
+    },
+    {
+      "id": "bollywood",
+      "name": "Bollywood",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Índia",
+      "description": "Música dos filmes hindi. Mistura gigantesca de estilos.",
+      "isFusion": false
+    },
+    {
+      "id": "carnatic",
+      "name": "Música Carnática",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Índia do Sul",
+      "description": "Música erudita clássica do sul da Índia.",
+      "isFusion": false
+    },
+    {
+      "id": "hindustani",
+      "name": "Música Hindustani",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Índia do Norte",
+      "description": "Música clássica do norte da Índia. Ravi Shankar.",
+      "isFusion": false
+    },
+    {
+      "id": "gamelan",
+      "name": "Gamelan",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Indonésia",
+      "description": "Orquestra indonésia de gongs e metalofones.",
+      "isFusion": false
+    },
+    {
+      "id": "dangdut",
+      "name": "Dangdut",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Indonésia",
+      "description": "Pop indonésio com raízes malaias, hindis e árabes.",
+      "isFusion": false
+    },
+    {
+      "id": "enka",
+      "name": "Enka",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Japão",
+      "description": "Baladas populares japonesas melodramáticas e tradicionais.",
+      "isFusion": false
+    },
+    {
+      "id": "klezmer",
+      "name": "Klezmer",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Europa Central",
+      "description": "Música judaica asquenaze festiva (clarinete/acordeão).",
+      "isFusion": false
+    },
+    {
+      "id": "balkan_brass",
+      "name": "Balkan Brass",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Balcãs",
+      "description": "Bandas de metais ciganas/balcânicas frenéticas. Goran Bregović.",
+      "isFusion": false
+    },
+    {
+      "id": "turkish_folk",
+      "name": "Folk Turco",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Turquia",
+      "description": "Música da Anatólia com saz/baglama.",
+      "isFusion": false
+    },
+    {
+      "id": "andean_music",
+      "name": "Música Andina",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "América do Sul (Andes)",
+      "description": "Sons tradicionais andinos com flautas (quena/zampoña).",
+      "isFusion": false
+    },
+    {
+      "id": "aboriginal_music",
+      "name": "Música Aborígene",
+      "category": "Música do Mundo",
+      "era": "ancient",
+      "region": "Austrália",
+      "description": "Música ancestral dos povos originários australianos (Didgeridoo).",
+      "isFusion": false
+    },
+    {
+      "id": "experimental",
+      "name": "Experimental",
+      "category": "Experimental",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Música de vanguarda que rejeita convenções comerciais.",
+      "isFusion": false
+    },
+    {
+      "id": "drone_music",
+      "name": "Drone Music",
+      "category": "Experimental",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Composições baseadas em notas sustentadas. La Monte Young.",
+      "isFusion": false
+    },
+    {
+      "id": "fluxus",
+      "name": "Fluxus",
+      "category": "Experimental",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Arte conceitual musical dos anos 60. John Cage, Yoko Ono.",
+      "isFusion": false
+    },
+    {
+      "id": "acousmatic",
+      "name": "Música Acusmática",
+      "category": "Experimental",
+      "era": "mid20",
+      "region": "França/Canadá",
+      "description": "Eletrónica desenhada para colunas, sem fonte visual.",
+      "isFusion": false
+    },
+    {
+      "id": "microsound",
+      "name": "Microsound",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Granular e partículas sonoras isoladas.",
+      "isFusion": false
+    },
+    {
+      "id": "lowercase",
+      "name": "Lowercase",
+      "category": "Experimental",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Música de silêncio e amplificação de sons inaudíveis.",
+      "isFusion": false
+    },
+    {
+      "id": "post_industrial",
+      "name": "Post-Industrial",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Industrial transmutado em dark ambient ou noise. Coil.",
+      "isFusion": false
+    },
+    {
+      "id": "power_electronics",
+      "name": "Power Electronics",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Industrial extremamente ruidoso, vocais gritados e temas tabu. Whitehouse.",
+      "isFusion": false
+    },
+    {
+      "id": "isolationism",
+      "name": "Isolacionismo",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Ambient frio, solitário e assustador.",
+      "isFusion": false
+    },
+    {
+      "id": "onyko",
+      "name": "Onkyō",
+      "category": "Experimental",
+      "era": "2000s",
+      "region": "Japão",
+      "description": "Improvisação hiper-minimalista japonesa focada em silêncio e textura.",
+      "isFusion": false
+    },
+    {
+      "id": "electro_swing",
+      "name": "Electro-Swing",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa",
+      "description": "House/Eletrónica misturada com samples de swing vintage.",
+      "isFusion": true
+    },
+    {
+      "id": "jazz_rock",
+      "name": "Jazz-Rock",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Fusão originária de solos jazzísticos sobre banda elétrica de rock.",
+      "isFusion": true
+    },
+    {
+      "id": "funk_metal",
+      "name": "Funk Metal",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Slap bass e riffs de metal. Red Hot Chili Peppers, Primus.",
+      "isFusion": true
+    },
+    {
+      "id": "rap_metal",
+      "name": "Rap-Metal",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rapping sobre riffs pesados. Rage Against the Machine.",
+      "isFusion": true
+    },
+    {
+      "id": "rap_rock",
+      "name": "Rap-Rock",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rap fundido com rock alternativo. Linkin Park.",
+      "isFusion": true
+    },
+    {
+      "id": "psychobilly",
+      "name": "Psychobilly",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "Rockabilly cruzado com atitude e velocidade punk rock. The Cramps.",
+      "isFusion": true
+    },
+    {
+      "id": "celtic_punk",
+      "name": "Celtic-Punk",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Irlanda/EUA",
+      "description": "Folk celta com punk rock de taberna. Dropkick Murphys, The Pogues.",
+      "isFusion": true
+    },
+    {
+      "id": "reggae_rock",
+      "name": "Reggae-Rock",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Ska e reggae tocados por bandas de rock surf/skate. Sublime.",
+      "isFusion": true
+    },
+    {
+      "id": "crunkcore",
+      "name": "Crunkcore",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Gritos emo/screamo sobre batidas crunk. Brokencyde.",
+      "isFusion": true
+    },
+    {
+      "id": "flamenco_jazz",
+      "name": "Flamenco-Jazz",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "Espanha",
+      "description": "Harmonia do jazz na guitarra ou sax com ritmos flamencos.",
+      "isFusion": true
+    },
+    {
+      "id": "global_bass",
+      "name": "Global Bass",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Club music europeia cruzada com ritmos periféricos do mundo (Kuduro, Baile Funk).",
+      "isFusion": true
+    },
+    {
+      "id": "tropical_house",
+      "name": "Tropical House",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa/Austrália",
+      "description": "House comercial com percussão tropical e melodias leves (marimba/flauta). Kygo.",
+      "isFusion": true
+    },
+    {
+      "id": "tropical_bass",
+      "name": "Tropical Bass",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "América Latina",
+      "description": "Folclore latino (cumbia) e afro com batidas pesadas digitais. Bomba Estéreo.",
+      "isFusion": true
+    },
+    {
+      "id": "illbient",
+      "name": "Illbient",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA (Nova Iorque)",
+      "description": "Hip hop distorcido com noise e ambient. DJ Spooky.",
+      "isFusion": true
+    },
+    {
+      "id": "dark_wave",
+      "name": "Dark Wave",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Post-punk fundido com drum machines e synths sombrios. Sisters of Mercy.",
+      "isFusion": true
+    },
+    {
+      "id": "cold_wave",
+      "name": "Cold Wave",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "França",
+      "description": "O lado mais gélido, robótico e solitário do post-punk europeu.",
+      "isFusion": true
+    },
+    {
+      "id": "minimal_wave",
+      "name": "Minimal Wave",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Europa",
+      "description": "Synthpop caseiro primitivo gravado em 4 pistas com sequenciadores básicos.",
+      "isFusion": true
+    },
+    {
+      "id": "electronic_tango",
+      "name": "Tango Electrónico",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Argentina",
+      "description": "Tango tradicional cruzado com downtempo. Gotan Project.",
+      "isFusion": true
+    },
+    {
+      "id": "jazz_electronic",
+      "name": "Jazz Electrónico",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa",
+      "description": "Improvisação acústica sobre tapetes texturados eletrónicos. Floating Points.",
+      "isFusion": true
+    },
+    {
+      "id": "afro_groove",
+      "name": "Afro-Groove",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "África",
+      "description": "Percussões e compassos africanos adaptados a orquestras de soul e funk.",
+      "isFusion": true
+    },
+    {
+      "id": "highlife_funk",
+      "name": "Highlife-Funk",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "África Ocidental",
+      "description": "Banda de Highlife tocando guitarras rítmicas sincopadas estilo James Brown.",
+      "isFusion": true
+    },
+    {
+      "id": "cumbia_electronic",
+      "name": "Cumbia Eletrónica",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Argentina/México",
+      "description": "O ritmo da cumbia com sintetizadores grossos e batidas de club. Kumbia Kings.",
+      "isFusion": true
+    },
+    {
+      "id": "kizomba_urban",
+      "name": "Urban Kizomba",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa/Angola",
+      "description": "Kizomba misturada com R&B e Pop eletrónico.",
+      "isFusion": true
+    },
+    {
+      "id": "future_garage",
+      "name": "Future Garage",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Reino Unido",
+      "description": "Garagem sem a agressividade, batidas desconstruídas, melancolia noturna. Burial.",
+      "isFusion": true
+    },
+    {
+      "id": "melodic_dubstep",
+      "name": "Melodic Dubstep",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Dubstep pesado mas estruturado por acordes épicos e vocais pop-trance.",
+      "isFusion": true
+    },
+    {
+      "id": "indie_folk",
+      "name": "Indie Folk",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Acústico independente com estética lo-fi ou arranjos ricos. Bon Iver, Fleet Foxes.",
+      "isFusion": true
+    },
+    {
+      "id": "folk_electronic",
+      "name": "Folk Electrónico",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Canção tradicional suportada por sintetizadores suaves e glitches.",
+      "isFusion": true
+    },
+    {
+      "id": "neo_classical",
+      "name": "Neoclássico Contemporâneo",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa",
+      "description": "Piano ou cordas clássicas enquadradas em texturas de drone/ambient. Nils Frahm, Max Richter.",
+      "isFusion": true
+    },
+    {
+      "id": "post_bossa",
+      "name": "Post-Bossa",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "Brasil",
+      "description": "Evolução vanguardista e jazzística após a Bossa Nova. Hermeto Pascoal.",
+      "isFusion": true
+    },
+    {
+      "id": "timba",
+      "name": "Timba",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Cuba",
+      "description": "Fusão complexa e explosiva de son cubano com funk, R&B e jazz afro. Los Van Van.",
+      "isFusion": true
+    },
+    {
+      "id": "surf_garage",
+      "name": "Surf Garage",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Cruzamento do reverb do surf com a sujidade das bandas de garagem.",
+      "isFusion": true
+    },
+    {
+      "id": "skacore",
+      "name": "Skacore",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Fusão agressiva entre os ritmos upstroke do ska e a brutalidade do hardcore punk.",
+      "isFusion": true
+    },
+    {
+      "id": "dub_techno",
+      "name": "Dub Techno",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "Alemanha",
+      "description": "Minimal techno mergulhado em acordes profundos, ecoantes e efeitos típicos do dub jamaicano. Basic Channel.",
+      "isFusion": true
+    },
+    {
+      "id": "dub_step_reggae",
+      "name": "Riddim Dubstep / Dub-Reggae",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Global",
+      "description": "Reintegração de flow de dancehall e riddims tradicionais nas batidas de dubstep.",
+      "isFusion": true
+    },
+    {
+      "id": "jazz_hop",
+      "name": "Jazz Hop",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Hip hop purista assente em pesados samples de jazz. Pete Rock, J Dilla.",
+      "isFusion": true
+    },
+    {
+      "id": "trap_metal",
+      "name": "Trap Metal",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Bateria de trap misturada com guitarras distorcidas, gritos e imagem shock-rock.",
+      "isFusion": true
+    },
+    {
+      "id": "progressive_metal",
+      "name": "Progressive Metal",
+      "category": "Fusão",
+      "era": "late20",
+      "region": "EUA/Europa",
+      "description": "Estruturas épicas, compassos ímpares, temas conceptuais de Prog misturados com Metal pesado. Tool, Dream Theater.",
+      "isFusion": true
+    },
+    {
+      "id": "avant_folk",
+      "name": "Avant-Folk",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "EUA",
+      "description": "Exploração bizarra e inconvencional com instrumentação rudimentar folk.",
+      "isFusion": true
+    },
+    {
+      "id": "jazztronica",
+      "name": "Jazztronica",
+      "category": "Fusão",
+      "era": "2000s",
+      "region": "Europa/Reino Unido",
+      "description": "Músicos de jazz virtuosos a solar ao vivo sobre breakbeats eletrónicos.",
+      "isFusion": true
+    },
+    {
+      "id": "ethio_jazz",
+      "name": "Ethio-Jazz",
+      "category": "Fusão",
+      "era": "mid20",
+      "region": "Etiópia",
+      "description": "As escalas pentatónicas únicas da música etíope tocadas com sopros e ritmo de jazz latino. Mulatu Astatke.",
+      "isFusion": true
+    },
+    {
+      "id": "latin_music",
+      "name": "Música Latina",
+      "category": "Latina",
+      "era": "early20",
+      "region": "América Latina",
+      "description": "Termo abrangente que engloba a vasta herança musical da américa latina e de influência espanhola.",
+      "isFusion": false
+    },
+    {
+      "id": "brazilian_music",
+      "name": "Música Brasileira",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Brasil",
+      "description": "Tradições e fusões afro-indígenas-portuguesas em todo o território nacional brasileiro.",
+      "isFusion": false
+    },
+    {
+      "id": "pimba",
+      "name": "Pimba",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "Portugal",
+      "description": "Música popular brejeira, de baile e romântica. Ritmo simples com acordeão e sintetizadores.",
+      "isFusion": false
+    },
+    {
+      "id": "cante_alentejano",
+      "name": "Cante Alentejano",
+      "category": "Música do Mundo",
+      "era": "classical",
+      "region": "Portugal (Alentejo)",
+      "description": "Canto coral polifónico tradicional sem instrumentos, executado por grupos na região do Alentejo.",
+      "isFusion": false
+    },
+    {
+      "id": "morna",
+      "name": "Morna",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Cabo Verde",
+      "description": "Género cabo-verdiano nostálgico, acústico e lento, eternizado por Cesária Évora.",
+      "isFusion": false
+    },
+    {
+      "id": "funana",
+      "name": "Funaná",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Cabo Verde",
+      "description": "Música e dança frenética baseada na gaita e no ferrinho, símbolo camponês de Santiago.",
+      "isFusion": false
+    },
+    {
+      "id": "marrabenta",
+      "name": "Marrabenta",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Moçambique",
+      "description": "Guitarra rítmica africana com letras urbanas que narram o quotidiano em Maputo.",
+      "isFusion": false
+    },
+    {
+      "id": "drift_phonk",
+      "name": "Drift Phonk",
+      "category": "Electrónica",
+      "era": "modern",
+      "region": "Internet/Global",
+      "description": "Phonk hiper-saturado com 808s distorcidos e cowbells, usado em vídeos de carros (Drift) e memes.",
+      "isFusion": true
+    },
+    {
+      "id": "blues_rock",
+      "name": "Blues Rock",
+      "category": "Blues",
+      "era": "mid20",
+      "region": "Reino Unido/EUA",
+      "description": "Fusão de blues elétrico com atitude, amplificação e peso do rock primitivo. Jimi Hendrix, Cream.",
+      "isFusion": true
+    },
+    {
+      "id": "contemporary_christian",
+      "name": "Contemporary Christian",
+      "category": "Gospel",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Rádio cristã comercial com uma roupagem pop/rock inofensiva.",
+      "isFusion": false
+    },
+    {
+      "id": "hard_rock",
+      "name": "Hard Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "Global",
+      "description": "Rock movido a riffs agressivos e volume sem necessariamente a distorção sombria do metal. AC/DC, Aerosmith.",
+      "isFusion": false
+    },
+    {
+      "id": "industrial_metal",
+      "name": "Industrial Metal",
+      "category": "Metal",
+      "era": "late20",
+      "region": "EUA/Alemanha",
+      "description": "Metal pesado tocado em sincronia marcial com percussão sequenciada e sintetizadores.",
+      "isFusion": true
+    },
+    {
+      "id": "industrial_rock",
+      "name": "Industrial Rock",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA/Reino Unido",
+      "description": "Rock alternativo guiado por texturas e samplers agressivos típicos do industrial.",
+      "isFusion": true
+    },
+    {
+      "id": "arena_rock",
+      "name": "Arena Rock",
+      "category": "Rock",
+      "era": "mid20",
+      "region": "EUA",
+      "description": "Rock polido com refrões épicos (anthems) para serem cantados por estádios inteiros.",
+      "isFusion": false
+    },
+    {
+      "id": "slowcore",
+      "name": "Slowcore",
+      "category": "Rock",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Andamentos super arrastados, minimalistas e letras melancólicas. Duster, Low.",
+      "isFusion": false
+    },
+    {
+      "id": "hi_nrg",
+      "name": "Hi-NRG",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Evolução do disco com andamentos acelerados, sem a marca de cordas e focado em sintetizadores cruéis.",
+      "isFusion": false
+    },
+    {
+      "id": "hyphy",
+      "name": "Hyphy",
+      "category": "Hip Hop",
+      "era": "2000s",
+      "region": "EUA (Bay Area)",
+      "description": "Vertente excêntrica, hiperativa e festiva do rap da Califórnia do Norte. E-40.",
+      "isFusion": false
+    },
+    {
+      "id": "baltimore_club",
+      "name": "Baltimore Club",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "EUA",
+      "description": "Breakbeats agressivos fundidos com house e samples curtos repetidos ao limite.",
+      "isFusion": true
+    },
+    {
+      "id": "breakcore",
+      "name": "Breakcore",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Global",
+      "description": "Destruição sónica através do esquartejamento microscópico de breaks amens em BPMs alucinantes.",
+      "isFusion": false
+    },
+    {
+      "id": "son_montuno",
+      "name": "Son Montuno",
+      "category": "Latina",
+      "era": "mid20",
+      "region": "Cuba",
+      "description": "Variação do son com secções abertas para solos instrumentais intensos e improvisação vocal.",
+      "isFusion": false
+    },
+    {
+      "id": "afrobeats_modern",
+      "name": "Afrobeats",
+      "category": "Música do Mundo",
+      "era": "modern",
+      "region": "Nigéria/Gana",
+      "description": "Pop africano global de fusão (não confundir com o clássico Afrobeat). Wizkid, Burna Boy.",
+      "isFusion": true
+    },
+    {
+      "id": "coladeira",
+      "name": "Coladeira",
+      "category": "Música do Mundo",
+      "era": "mid20",
+      "region": "Cabo Verde",
+      "description": "Música dançante, irónica e acelerada, em contraponto com a lentidão triste da morna.",
+      "isFusion": false
+    },
+    {
+      "id": "eurobeat",
+      "name": "Eurobeat",
+      "category": "Pop",
+      "era": "late20",
+      "region": "Europa/Japão",
+      "description": "Italo disco acelerado com melodias de pastilha elástica. Encontrou culto na cultura anime e de drift japonesa.",
+      "isFusion": false
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "category": "Experimental",
+      "era": "late20",
+      "region": "Reino Unido",
+      "description": "O verdadeiro ruído fabril e mecânico, chocante e percussivo que inspirou todos os derivados posteriores.",
+      "isFusion": false
+    },
+    {
+      "id": "zouk",
+      "name": "Zouk",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "Caraíbas (Guadalupe/Martinica)",
+      "description": "Ritmo de dança frenético, moderno e com baixos gordos, pioneiro nas ilhas francesas (Kassav').",
+      "isFusion": false
+    },
+    {
+      "id": "sertanejo",
+      "name": "Sertanejo",
+      "category": "Latina",
+      "era": "mid20",
+      "region": "Brasil",
+      "description": "A 'música country' brasileira. O género mais ouvido do país, hoje dominado pelo Sertanejo Universitário comercial.",
+      "isFusion": false
+    },
+    {
+      "id": "choro",
+      "name": "Choro",
+      "category": "Latina",
+      "era": "early20",
+      "region": "Brasil (Rio de Janeiro)",
+      "description": "Música instrumental e de roda altamente virtuosa (flauta, cavaquinho). O equivalente brasileiro ao ragtime ou jazz original.",
+      "isFusion": false
+    },
+    {
+      "id": "pagode",
+      "name": "Pagode",
+      "category": "Latina",
+      "era": "late20",
+      "region": "Brasil",
+      "description": "Derivação romântica e comercial do samba. Tocado com repique e tantã, domina as festas em todo o Brasil.",
+      "isFusion": false
+    },
+    {
+      "id": "hip_hop_tuga",
+      "name": "Hip Hop Tuga",
+      "category": "Hip Hop",
+      "era": "late20",
+      "region": "Portugal",
+      "description": "A adaptação portuguesa do Hip Hop, fundindo a lírica social com samples, muitas vezes, de fado, soul ou ritmos africanos.",
+      "isFusion": true
+    },
+    {
+      "id": "batida_lisboa",
+      "name": "Batida de Lisboa",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "Portugal (Lisboa)",
+      "description": "A música eletrónica da periferia lisboeta, cruzando kuduro e tarraxinha com techno de garagem. Príncipe Discos, Buraka.",
+      "isFusion": true
+    },
+    {
+      "id": "soca",
+      "name": "Soca",
+      "category": "Música do Mundo",
+      "era": "late20",
+      "region": "Caraíbas (Trinidad)",
+      "description": "Soul-Calypso. A versão digital, acelerada e festiva do calypso, feita para os gigantescos carnavais caribenhos.",
+      "isFusion": true
+    },
+    {
+      "id": "calypso",
+      "name": "Calypso",
+      "category": "Música do Mundo",
+      "era": "early20",
+      "region": "Caraíbas (Trinidad)",
+      "description": "Género fundador com ritmo sincopado e forte componente de storytelling e comentário sociopolítico mordaz.",
+      "isFusion": false
+    },
+    {
+      "id": "musica_intervencao",
+      "name": "Música de Intervenção",
+      "category": "Folk",
+      "era": "mid20",
+      "region": "Portugal",
+      "description": "Canto livre politizado ligado à luta contra a ditadura e Revolução dos Cravos. José Afonso, Sérgio Godinho.",
+      "isFusion": false
+    },
+    {
+      "id": "chiptune",
+      "name": "Chiptune / 8-Bit",
+      "category": "Electrónica",
+      "era": "late20",
+      "region": "Global",
+      "description": "Música inteiramente composta usando os chips e placas de som de consolas antigas (Gameboy, NES, Amiga).",
+      "isFusion": false
+    },
+    {
+      "id": "moombahton",
+      "name": "Moombahton",
+      "category": "Electrónica",
+      "era": "2000s",
+      "region": "EUA/Global",
+      "description": "Fusão global de house abrandado para 108 BPM e ritmos reggaeton de dembow.",
+      "isFusion": true
+    },
+    {
+      "id": "ranchera",
+      "name": "Ranchera",
+      "category": "Latina",
+      "era": "early20",
+      "region": "México",
+      "description": "Música tradicional mexicana clássica, frequentemente cantada por mariachis, com forte emoção e temas de amor e folclore.",
+      "isFusion": false
+    }
+  ],
+  "links": [
+    {
+      "source": "rock",
+      "target": "rock_and_roll",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "classic_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "psychedelic_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "progressive_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "alternative_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "indie_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "garage_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "surf_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "art_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "glam_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "stoner_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "noise_rock",
+      "type": "parent"
+    },
+    {
+      "source": "alternative_rock",
+      "target": "grunge",
+      "type": "parent"
+    },
+    {
+      "source": "alternative_rock",
+      "target": "shoegaze",
+      "type": "parent"
+    },
+    {
+      "source": "alternative_rock",
+      "target": "indie_rock",
+      "type": "influence"
+    },
+    {
+      "source": "progressive_rock",
+      "target": "post_rock",
+      "type": "influence"
+    },
+    {
+      "source": "progressive_rock",
+      "target": "math_rock",
+      "type": "influence"
+    },
+    {
+      "source": "progressive_rock",
+      "target": "art_rock",
+      "type": "influence"
+    },
+    {
+      "source": "alternative_rock",
+      "target": "emo",
+      "type": "parent"
+    },
+    {
+      "source": "emo",
+      "target": "screamo",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "pop_punk",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "britpop",
+      "type": "parent"
+    },
+    {
+      "source": "glam_rock",
+      "target": "britpop",
+      "type": "influence"
+    },
+    {
+      "source": "classic_rock",
+      "target": "southern_rock",
+      "type": "parent"
+    },
+    {
+      "source": "psychedelic_rock",
+      "target": "space_rock",
+      "type": "parent"
+    },
+    {
+      "source": "stoner_rock",
+      "target": "desert_rock",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "rockabilly",
+      "type": "parent"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "thrash_metal",
+      "type": "parent"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "doom_metal",
+      "type": "parent"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "glam_metal",
+      "type": "parent"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "nwobhm",
+      "type": "parent"
+    },
+    {
+      "source": "thrash_metal",
+      "target": "death_metal",
+      "type": "parent"
+    },
+    {
+      "source": "thrash_metal",
+      "target": "speed_metal",
+      "type": "parent"
+    },
+    {
+      "source": "thrash_metal",
+      "target": "groove_metal",
+      "type": "parent"
+    },
+    {
+      "source": "black_metal",
+      "target": "viking_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "black_metal",
+      "target": "atmo_black_metal",
+      "type": "parent"
+    },
+    {
+      "source": "black_metal",
+      "target": "depressive_bm",
+      "type": "parent"
+    },
+    {
+      "source": "black_metal",
+      "target": "war_metal",
+      "type": "parent"
+    },
+    {
+      "source": "doom_metal",
+      "target": "funeral_doom",
+      "type": "parent"
+    },
+    {
+      "source": "doom_metal",
+      "target": "sludge_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "doom_metal",
+      "target": "stoner_metal",
+      "type": "parent"
+    },
+    {
+      "source": "power_metal",
+      "target": "symphonic_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "folk_metal",
+      "target": "viking_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "folk_metal",
+      "target": "pirate_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "folk_metal",
+      "target": "pagan_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "metalcore",
+      "target": "deathcore",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "post_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "post_rock",
+      "target": "post_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "punk",
+      "target": "hardcore_punk",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "post_punk",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "anarcho_punk",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "street_punk",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "proto_punk",
+      "type": "parent"
+    },
+    {
+      "source": "hardcore_punk",
+      "target": "post_hardcore",
+      "type": "parent"
+    },
+    {
+      "source": "hardcore_punk",
+      "target": "crust_punk",
+      "type": "parent"
+    },
+    {
+      "source": "post_punk",
+      "target": "noise_rock",
+      "type": "influence"
+    },
+    {
+      "source": "post_punk",
+      "target": "no_wave",
+      "type": "influence"
+    },
+    {
+      "source": "rock",
+      "target": "heavy_metal",
+      "type": "parent"
+    },
+    {
+      "source": "rock",
+      "target": "punk",
+      "type": "parent"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "metalcore",
+      "type": "fusion"
+    },
+    {
+      "source": "hardcore_punk",
+      "target": "metalcore",
+      "type": "fusion"
+    },
+    {
+      "source": "doom_metal",
+      "target": "post_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "nu_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "progressive_rock",
+      "target": "djent",
+      "type": "influence"
+    },
+    {
+      "source": "jazz",
+      "target": "dixieland",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "swing",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "bebop",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "cool_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "hard_bop",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "modal_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "free_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_manouche",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "ragtime",
+      "type": "influence"
+    },
+    {
+      "source": "bebop",
+      "target": "hard_bop",
+      "type": "parent"
+    },
+    {
+      "source": "bebop",
+      "target": "cool_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "bebop",
+      "target": "post_bop",
+      "type": "parent"
+    },
+    {
+      "source": "bebop",
+      "target": "avantgarde_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "cool_jazz",
+      "target": "chamber_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "cool_jazz",
+      "target": "ecm_jazz",
+      "type": "influence"
+    },
+    {
+      "source": "modal_jazz",
+      "target": "post_bop",
+      "type": "influence"
+    },
+    {
+      "source": "post_bop",
+      "target": "jazz_fusion",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz_fusion",
+      "target": "acid_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "jazz_fusion",
+      "target": "nu_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz_fusion",
+      "target": "jazz_funk",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "latin_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "afrocuban_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "smooth_jazz",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "delta_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "chicago_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "country_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "piedmont_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "electric_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "texas_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "swamp_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "jump_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "soul_blues",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "hill_country_blues",
+      "type": "parent"
+    },
+    {
+      "source": "delta_blues",
+      "target": "chicago_blues",
+      "type": "influence"
+    },
+    {
+      "source": "blues",
+      "target": "jazz",
+      "type": "influence"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "soul",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "funk",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "motown",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "neo_soul",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "contemporary_rnb",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "new_jack_swing",
+      "type": "fusion"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "quiet_storm",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "disco",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "philly_soul",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "southern_soul",
+      "type": "parent"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "memphis_soul",
+      "type": "parent"
+    },
+    {
+      "source": "soul",
+      "target": "neo_soul",
+      "type": "influence"
+    },
+    {
+      "source": "funk",
+      "target": "jazz_funk",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "boogie",
+      "type": "parent"
+    },
+    {
+      "source": "boogie",
+      "target": "disco",
+      "type": "influence"
+    },
+    {
+      "source": "blues",
+      "target": "rnb_soul",
+      "type": "influence"
+    },
+    {
+      "source": "soul",
+      "target": "trip_hop",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "house",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "techno",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "trance",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "drum_and_bass",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "ambient",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "idm",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "electro",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "ebm",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "glitch",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "noise",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "deep_house",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "tech_house",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "progressive_house",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "tribal_house",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "afro_house",
+      "type": "fusion"
+    },
+    {
+      "source": "techno",
+      "target": "detroit_techno",
+      "type": "parent"
+    },
+    {
+      "source": "techno",
+      "target": "minimal_techno",
+      "type": "parent"
+    },
+    {
+      "source": "techno",
+      "target": "melodic_techno",
+      "type": "parent"
+    },
+    {
+      "source": "techno",
+      "target": "industrial_techno",
+      "type": "parent"
+    },
+    {
+      "source": "trance",
+      "target": "psytrance",
+      "type": "parent"
+    },
+    {
+      "source": "trance",
+      "target": "goa_trance",
+      "type": "parent"
+    },
+    {
+      "source": "trance",
+      "target": "dark_trance",
+      "type": "parent"
+    },
+    {
+      "source": "drum_and_bass",
+      "target": "liquid_dnb",
+      "type": "parent"
+    },
+    {
+      "source": "drum_and_bass",
+      "target": "neurofunk",
+      "type": "parent"
+    },
+    {
+      "source": "drum_and_bass",
+      "target": "jungle",
+      "type": "parent"
+    },
+    {
+      "source": "uk_garage",
+      "target": "dubstep",
+      "type": "fusion"
+    },
+    {
+      "source": "uk_garage",
+      "target": "two_step",
+      "type": "parent"
+    },
+    {
+      "source": "uk_garage",
+      "target": "grime",
+      "type": "fusion"
+    },
+    {
+      "source": "dubstep",
+      "target": "brostep",
+      "type": "parent"
+    },
+    {
+      "source": "dubstep",
+      "target": "post_dubstep",
+      "type": "parent"
+    },
+    {
+      "source": "ambient",
+      "target": "dark_ambient",
+      "type": "parent"
+    },
+    {
+      "source": "hardcore_techno",
+      "target": "gabber",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "uk_garage",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "breakbeat",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "hardcore_techno",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "synthwave",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "chillwave",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "future_bass",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "hyperpop",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "phonk",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "jersey_club",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "hardstyle",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "frenchcore",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "footwork",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "vaporwave",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "witch_house",
+      "type": "parent"
+    },
+    {
+      "source": "synthwave",
+      "target": "darksynth",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "old_school_hiphop",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "boom_bap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "west_coast_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "east_coast_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "gangsta_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "trap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "drill",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "cloud_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "conscious_hiphop",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "crunk",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "soundcloud_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "memphis_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "detroit_rap",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "rage_rap",
+      "type": "parent"
+    },
+    {
+      "source": "gangsta_rap",
+      "target": "west_coast_rap",
+      "type": "parent"
+    },
+    {
+      "source": "west_coast_rap",
+      "target": "g_funk",
+      "type": "parent"
+    },
+    {
+      "source": "trap",
+      "target": "drill",
+      "type": "influence"
+    },
+    {
+      "source": "drill",
+      "target": "uk_drill",
+      "type": "fusion"
+    },
+    {
+      "source": "trap",
+      "target": "emo_rap",
+      "type": "fusion"
+    },
+    {
+      "source": "trap",
+      "target": "pluggnb",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_rap",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "jazz_rap",
+      "type": "fusion"
+    },
+    {
+      "source": "memphis_rap",
+      "target": "phonk",
+      "type": "influence"
+    },
+    {
+      "source": "pop",
+      "target": "bubblegum_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "synth_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "electropop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "dream_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "art_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "indie_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "dance_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "teen_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "kpop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "jpop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "cpop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "mandopop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "eurodance",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "bedroom_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "sunshine_pop",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "jangle_pop",
+      "type": "parent"
+    },
+    {
+      "source": "synth_pop",
+      "target": "electropop",
+      "type": "influence"
+    },
+    {
+      "source": "synth_pop",
+      "target": "eurodance",
+      "type": "influence"
+    },
+    {
+      "source": "disco",
+      "target": "italo_disco",
+      "type": "parent"
+    },
+    {
+      "source": "disco",
+      "target": "nu_disco",
+      "type": "influence"
+    },
+    {
+      "source": "jpop",
+      "target": "city_pop",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "classic_country",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "outlaw_country",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "americana",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "bluegrass",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "alt_country",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "honky_tonk",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "western_swing",
+      "type": "fusion"
+    },
+    {
+      "source": "country",
+      "target": "texas_country",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "nashville_sound",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "brocountry",
+      "type": "parent"
+    },
+    {
+      "source": "classic_country",
+      "target": "honky_tonk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "traditional_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "contemporary_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "celtic_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "nordic_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "psych_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "freak_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "anti_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "acid_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "neofolk",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "dark_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "electric_folk",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "folk_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "folktronica",
+      "type": "fusion"
+    },
+    {
+      "source": "country",
+      "target": "country_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "country",
+      "target": "country_pop",
+      "type": "fusion"
+    },
+    {
+      "source": "baroque_pop",
+      "target": "chamber_pop",
+      "type": "fusion"
+    },
+    {
+      "source": "pop",
+      "target": "sophisti_pop",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "gregorian",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "renaissance_poly",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "baroque",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "classicism_music",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "romanticism",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "impressionism_music",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "modernism_music",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "neoclassicism_music",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "serialism",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "dodecaphonism",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "minimalism_music",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "spectralism",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "contemporary_classical",
+      "type": "parent"
+    },
+    {
+      "source": "classical",
+      "target": "electroacoustic",
+      "type": "parent"
+    },
+    {
+      "source": "modernism_music",
+      "target": "serialism",
+      "type": "parent"
+    },
+    {
+      "source": "serialism",
+      "target": "dodecaphonism",
+      "type": "parent"
+    },
+    {
+      "source": "musique_concrete",
+      "target": "electroacoustic",
+      "type": "influence"
+    },
+    {
+      "source": "gospel",
+      "target": "traditional_gospel",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "contemporary_gospel",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "southern_gospel",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "negro_spirituals",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "ccm",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "worship_music",
+      "type": "parent"
+    },
+    {
+      "source": "dancehall",
+      "target": "ragga",
+      "type": "parent"
+    },
+    {
+      "source": "reggae",
+      "target": "reggaeton",
+      "type": "fusion"
+    },
+    {
+      "source": "salsa",
+      "target": "son_cubano",
+      "type": "influence"
+    },
+    {
+      "source": "samba",
+      "target": "bossa_nova",
+      "type": "fusion"
+    },
+    {
+      "source": "cool_jazz",
+      "target": "bossa_nova",
+      "type": "fusion"
+    },
+    {
+      "source": "samba",
+      "target": "mpb",
+      "type": "influence"
+    },
+    {
+      "source": "bossa_nova",
+      "target": "mpb",
+      "type": "influence"
+    },
+    {
+      "source": "samba",
+      "target": "tropicalia",
+      "type": "fusion"
+    },
+    {
+      "source": "mpb",
+      "target": "tropicalia",
+      "type": "fusion"
+    },
+    {
+      "source": "cumbia",
+      "target": "reggaeton",
+      "type": "fusion"
+    },
+    {
+      "source": "reggaeton",
+      "target": "latin_trap",
+      "type": "fusion"
+    },
+    {
+      "source": "reggaeton",
+      "target": "dembow",
+      "type": "parent"
+    },
+    {
+      "source": "son_cubano",
+      "target": "salsa",
+      "type": "fusion"
+    },
+    {
+      "source": "son_cubano",
+      "target": "bolero_music",
+      "type": "influence"
+    },
+    {
+      "source": "world_music",
+      "target": "afrobeat",
+      "type": "fusion"
+    },
+    {
+      "source": "world_music",
+      "target": "highlife",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "juju_music",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "soukous",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "mbalax",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "gnawa",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "chaabi",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "rai",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "afropop",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "amapiano",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "gqom",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "kizomba",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "semba",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "kuduro",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "fado",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "arabic_classical",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "maqam",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "qawwali",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "bhangra",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "bollywood",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "carnatic",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "hindustani",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "gamelan",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "dangdut",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "enka",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "klezmer",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "balkan_brass",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "turkish_folk",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "andean_music",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "aboriginal_music",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "celtic_folk",
+      "type": "parent"
+    },
+    {
+      "source": "semba",
+      "target": "kizomba",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "noise",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "drone_music",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "fluxus",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "acousmatic",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "microsound",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "lowercase",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "post_industrial",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "power_electronics",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "isolationism",
+      "type": "parent"
+    },
+    {
+      "source": "experimental",
+      "target": "onyko",
+      "type": "parent"
+    },
+    {
+      "source": "musique_concrete",
+      "target": "acousmatic",
+      "type": "parent"
+    },
+    {
+      "source": "post_industrial",
+      "target": "power_electronics",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "afrobeat",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "afrobeat",
+      "type": "fusion"
+    },
+    {
+      "source": "highlife",
+      "target": "afropop",
+      "type": "influence"
+    },
+    {
+      "source": "house",
+      "target": "amapiano",
+      "type": "influence"
+    },
+    {
+      "source": "house",
+      "target": "gqom",
+      "type": "influence"
+    },
+    {
+      "source": "swing",
+      "target": "electro_swing",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "electro_swing",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "jazz_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "funk_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "funk_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "rap_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "rap_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "rap_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "rap_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rockabilly",
+      "target": "psychobilly",
+      "type": "fusion"
+    },
+    {
+      "source": "punk",
+      "target": "psychobilly",
+      "type": "fusion"
+    },
+    {
+      "source": "celtic_folk",
+      "target": "celtic_punk",
+      "type": "fusion"
+    },
+    {
+      "source": "punk",
+      "target": "celtic_punk",
+      "type": "fusion"
+    },
+    {
+      "source": "reggae",
+      "target": "reggae_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "reggae_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "crunk",
+      "target": "crunkcore",
+      "type": "fusion"
+    },
+    {
+      "source": "screamo",
+      "target": "crunkcore",
+      "type": "fusion"
+    },
+    {
+      "source": "flamenco",
+      "target": "flamenco_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "flamenco_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "world_music",
+      "target": "global_bass",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "global_bass",
+      "type": "fusion"
+    },
+    {
+      "source": "house",
+      "target": "tropical_house",
+      "type": "fusion"
+    },
+    {
+      "source": "cumbia",
+      "target": "tropical_bass",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "tropical_bass",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "illbient",
+      "type": "fusion"
+    },
+    {
+      "source": "ambient",
+      "target": "illbient",
+      "type": "fusion"
+    },
+    {
+      "source": "post_punk",
+      "target": "dark_wave",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "dark_wave",
+      "type": "fusion"
+    },
+    {
+      "source": "post_punk",
+      "target": "cold_wave",
+      "type": "fusion"
+    },
+    {
+      "source": "synth_pop",
+      "target": "minimal_wave",
+      "type": "fusion"
+    },
+    {
+      "source": "tango",
+      "target": "electronic_tango",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "electronic_tango",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "jazz_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "afrobeat",
+      "target": "afro_groove",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "afro_groove",
+      "type": "fusion"
+    },
+    {
+      "source": "highlife",
+      "target": "highlife_funk",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "highlife_funk",
+      "type": "fusion"
+    },
+    {
+      "source": "cumbia",
+      "target": "cumbia_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "cumbia_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "kizomba",
+      "target": "kizomba_urban",
+      "type": "fusion"
+    },
+    {
+      "source": "contemporary_rnb",
+      "target": "kizomba_urban",
+      "type": "fusion"
+    },
+    {
+      "source": "uk_garage",
+      "target": "future_garage",
+      "type": "fusion"
+    },
+    {
+      "source": "dubstep",
+      "target": "future_garage",
+      "type": "fusion"
+    },
+    {
+      "source": "dubstep",
+      "target": "melodic_dubstep",
+      "type": "fusion"
+    },
+    {
+      "source": "shoegaze",
+      "target": "dream_pop",
+      "type": "influence"
+    },
+    {
+      "source": "pop",
+      "target": "dream_pop",
+      "type": "influence"
+    },
+    {
+      "source": "folk",
+      "target": "indie_folk",
+      "type": "fusion"
+    },
+    {
+      "source": "indie_rock",
+      "target": "indie_folk",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "folk_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "folk_electronic",
+      "type": "fusion"
+    },
+    {
+      "source": "classical",
+      "target": "neo_classical",
+      "type": "fusion"
+    },
+    {
+      "source": "ambient",
+      "target": "neo_classical",
+      "type": "fusion"
+    },
+    {
+      "source": "bossa_nova",
+      "target": "post_bossa",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "post_bossa",
+      "type": "fusion"
+    },
+    {
+      "source": "son_cubano",
+      "target": "timba",
+      "type": "fusion"
+    },
+    {
+      "source": "funk",
+      "target": "timba",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_manouche",
+      "type": "fusion"
+    },
+    {
+      "source": "surf_rock",
+      "target": "surf_garage",
+      "type": "fusion"
+    },
+    {
+      "source": "garage_rock",
+      "target": "surf_garage",
+      "type": "fusion"
+    },
+    {
+      "source": "ska",
+      "target": "skacore",
+      "type": "fusion"
+    },
+    {
+      "source": "hardcore_punk",
+      "target": "skacore",
+      "type": "fusion"
+    },
+    {
+      "source": "techno",
+      "target": "dub_techno",
+      "type": "fusion"
+    },
+    {
+      "source": "dub",
+      "target": "dub_techno",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazz_hop",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "jazz_hop",
+      "type": "fusion"
+    },
+    {
+      "source": "trap",
+      "target": "trap_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "trap_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "progressive_rock",
+      "target": "progressive_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "progressive_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "avant_folk",
+      "type": "fusion"
+    },
+    {
+      "source": "experimental",
+      "target": "avant_folk",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "jazztronica",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "jazztronica",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "ethio_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "world_music",
+      "target": "ethio_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "nu_metal",
+      "target": "rap_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "nu_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "lofi_hiphop",
+      "type": "parent"
+    },
+    {
+      "source": "jazz",
+      "target": "lofi_hiphop",
+      "type": "influence"
+    },
+    {
+      "source": "world_music",
+      "target": "latin_music",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "brazilian_music",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "ska_punk",
+      "type": "fusion"
+    },
+    {
+      "source": "ska",
+      "target": "ska_punk",
+      "type": "fusion"
+    },
+    {
+      "source": "punk",
+      "target": "cowpunk",
+      "type": "fusion"
+    },
+    {
+      "source": "country",
+      "target": "cowpunk",
+      "type": "fusion"
+    },
+    {
+      "source": "reggae",
+      "target": "dub_step_reggae",
+      "type": "fusion"
+    },
+    {
+      "source": "dubstep",
+      "target": "dub_step_reggae",
+      "type": "fusion"
+    },
+    {
+      "source": "latin_music",
+      "target": "merengue",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "bachata",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "mariachi",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "corrido",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "vallenato",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "salsa",
+      "type": "fusion"
+    },
+    {
+      "source": "latin_music",
+      "target": "reggaeton",
+      "type": "fusion"
+    },
+    {
+      "source": "latin_music",
+      "target": "cumbia",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "tango",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "flamenco",
+      "type": "parent"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "samba",
+      "type": "parent"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "mpb",
+      "type": "parent"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "forro",
+      "type": "parent"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "axe",
+      "type": "parent"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "funk_carioca",
+      "type": "fusion"
+    },
+    {
+      "source": "world_music",
+      "target": "pimba",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "cante_alentejano",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "morna",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "funana",
+      "type": "parent"
+    },
+    {
+      "source": "world_music",
+      "target": "marrabenta",
+      "type": "parent"
+    },
+    {
+      "source": "phonk",
+      "target": "drift_phonk",
+      "type": "fusion"
+    },
+    {
+      "source": "fado",
+      "target": "morna",
+      "type": "influence"
+    },
+    {
+      "source": "blues",
+      "target": "rock_and_roll",
+      "type": "influence"
+    },
+    {
+      "source": "blues",
+      "target": "rock",
+      "type": "parent"
+    },
+    {
+      "source": "blues",
+      "target": "blues_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "blues_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "electric_blues",
+      "target": "rock",
+      "type": "influence"
+    },
+    {
+      "source": "gospel",
+      "target": "soul",
+      "type": "influence"
+    },
+    {
+      "source": "jazz",
+      "target": "rnb_soul",
+      "type": "influence"
+    },
+    {
+      "source": "rnb_soul",
+      "target": "rock_and_roll",
+      "type": "influence"
+    },
+    {
+      "source": "gospel",
+      "target": "contemporary_christian",
+      "type": "parent"
+    },
+    {
+      "source": "gospel",
+      "target": "rnb_soul",
+      "type": "influence"
+    },
+    {
+      "source": "rock",
+      "target": "hard_rock",
+      "type": "parent"
+    },
+    {
+      "source": "hard_rock",
+      "target": "heavy_metal",
+      "type": "influence"
+    },
+    {
+      "source": "heavy_metal",
+      "target": "industrial_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "industrial",
+      "target": "industrial_metal",
+      "type": "fusion"
+    },
+    {
+      "source": "industrial",
+      "target": "industrial_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "industrial_rock",
+      "type": "fusion"
+    },
+    {
+      "source": "rock",
+      "target": "arena_rock",
+      "type": "parent"
+    },
+    {
+      "source": "punk",
+      "target": "noise_rock",
+      "type": "influence"
+    },
+    {
+      "source": "alternative_rock",
+      "target": "slowcore",
+      "type": "parent"
+    },
+    {
+      "source": "pop",
+      "target": "country_pop",
+      "type": "fusion"
+    },
+    {
+      "source": "country",
+      "target": "americana",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "americana",
+      "type": "fusion"
+    },
+    {
+      "source": "blues",
+      "target": "americana",
+      "type": "influence"
+    },
+    {
+      "source": "bluegrass",
+      "target": "alt_country",
+      "type": "influence"
+    },
+    {
+      "source": "folk_rock",
+      "target": "indie_folk",
+      "type": "influence"
+    },
+    {
+      "source": "disco",
+      "target": "hi_nrg",
+      "type": "parent"
+    },
+    {
+      "source": "italo_disco",
+      "target": "eurobeat",
+      "type": "influence"
+    },
+    {
+      "source": "ragtime",
+      "target": "jazz",
+      "type": "influence"
+    },
+    {
+      "source": "blues",
+      "target": "hard_bop",
+      "type": "influence"
+    },
+    {
+      "source": "gospel",
+      "target": "hard_bop",
+      "type": "influence"
+    },
+    {
+      "source": "latin_music",
+      "target": "latin_jazz",
+      "type": "fusion"
+    },
+    {
+      "source": "folk",
+      "target": "jazz_manouche",
+      "type": "influence"
+    },
+    {
+      "source": "hiphop",
+      "target": "g_funk",
+      "type": "parent"
+    },
+    {
+      "source": "funk",
+      "target": "g_funk",
+      "type": "influence"
+    },
+    {
+      "source": "hiphop",
+      "target": "hyphy",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "jersey_club",
+      "type": "fusion"
+    },
+    {
+      "source": "house",
+      "target": "jersey_club",
+      "type": "fusion"
+    },
+    {
+      "source": "hiphop",
+      "target": "baltimore_club",
+      "type": "fusion"
+    },
+    {
+      "source": "house",
+      "target": "baltimore_club",
+      "type": "fusion"
+    },
+    {
+      "source": "baltimore_club",
+      "target": "jersey_club",
+      "type": "influence"
+    },
+    {
+      "source": "pop",
+      "target": "sophisti_pop",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "sophisti_pop",
+      "type": "influence"
+    },
+    {
+      "source": "pop",
+      "target": "electropop",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "electropop",
+      "type": "fusion"
+    },
+    {
+      "source": "jungle",
+      "target": "breakcore",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "footwork",
+      "type": "influence"
+    },
+    {
+      "source": "hiphop",
+      "target": "witch_house",
+      "type": "influence"
+    },
+    {
+      "source": "son_cubano",
+      "target": "son_montuno",
+      "type": "parent"
+    },
+    {
+      "source": "son_montuno",
+      "target": "salsa",
+      "type": "influence"
+    },
+    {
+      "source": "salsa",
+      "target": "timba",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "bolero_music",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "ranchera",
+      "type": "parent"
+    },
+    {
+      "source": "afrobeat",
+      "target": "afrobeats_modern",
+      "type": "influence"
+    },
+    {
+      "source": "hiphop",
+      "target": "afrobeats_modern",
+      "type": "influence"
+    },
+    {
+      "source": "dancehall",
+      "target": "afrobeats_modern",
+      "type": "influence"
+    },
+    {
+      "source": "house",
+      "target": "amapiano",
+      "type": "fusion"
+    },
+    {
+      "source": "jazz",
+      "target": "amapiano",
+      "type": "influence"
+    },
+    {
+      "source": "zouk",
+      "target": "kizomba",
+      "type": "fusion"
+    },
+    {
+      "source": "semba",
+      "target": "samba",
+      "type": "influence"
+    },
+    {
+      "source": "morna",
+      "target": "coladeira",
+      "type": "influence"
+    },
+    {
+      "source": "electronic",
+      "target": "industrial",
+      "type": "parent"
+    },
+    {
+      "source": "latin_music",
+      "target": "zouk",
+      "type": "parent"
+    },
+    {
+      "source": "disco",
+      "target": "eurobeat",
+      "type": "influence"
+    },
+    {
+      "source": "ska",
+      "target": "rocksteady",
+      "type": "parent"
+    },
+    {
+      "source": "rocksteady",
+      "target": "reggae",
+      "type": "parent"
+    },
+    {
+      "source": "disco",
+      "target": "house",
+      "type": "parent"
+    },
+    {
+      "source": "funk",
+      "target": "hiphop",
+      "type": "parent"
+    },
+    {
+      "source": "country",
+      "target": "sertanejo",
+      "type": "influence"
+    },
+    {
+      "source": "brazilian_music",
+      "target": "choro",
+      "type": "parent"
+    },
+    {
+      "source": "samba",
+      "target": "pagode",
+      "type": "parent"
+    },
+    {
+      "source": "hiphop",
+      "target": "hip_hop_tuga",
+      "type": "parent"
+    },
+    {
+      "source": "kuduro",
+      "target": "batida_lisboa",
+      "type": "fusion"
+    },
+    {
+      "source": "electronic",
+      "target": "batida_lisboa",
+      "type": "fusion"
+    },
+    {
+      "source": "calypso",
+      "target": "soca",
+      "type": "fusion"
+    },
+    {
+      "source": "world_music",
+      "target": "calypso",
+      "type": "parent"
+    },
+    {
+      "source": "folk",
+      "target": "musica_intervencao",
+      "type": "parent"
+    },
+    {
+      "source": "electronic",
+      "target": "chiptune",
+      "type": "parent"
+    },
+    {
+      "source": "house",
+      "target": "moombahton",
+      "type": "fusion"
+    },
+    {
+      "source": "reggaeton",
+      "target": "moombahton",
+      "type": "fusion"
+    },
+    {
+      "source": "reggae",
+      "target": "roots_reggae",
+      "type": "parent"
+    },
+    {
+      "source": "reggae",
+      "target": "lovers_rock",
+      "type": "parent"
+    },
+    {
+      "source": "ska",
+      "target": "lovers_rock",
+      "type": "influence"
+    }
+  ]
+}

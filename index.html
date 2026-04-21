@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas dos Géneros Musicais</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <meta name="description" content="Explore a árvore genealógica e as conexões entre centenas de géneros musicais, desde a música antiga até aos tempos modernos.">
+  <meta name="keywords" content="música, géneros musicais, história da música, atlas musical, d3js, visualização de dados">
+  <meta property="og:title" content="Atlas dos Géneros Musicais">
+  <meta property="og:description" content="Uma viagem visual pela evolução da música e suas influências.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header">
+  <h1>Atlas <span>//</span> Géneros Musicais</h1>
+  <div id="header-end">
+    <div id="stats">A carregar...</div>
+    <button id="btn-help" title="Sobre & Ajuda">?</button>
+  </div>
+</div>
+
+<div id="controls">
+  <div id="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="search" placeholder="Pesquisar género..." aria-label="Pesquisar género musical">
+  </div>
+  <select id="filter-cat" aria-label="Filtrar por categoria">
+    <option value="">Todas as categorias</option>
+  </select>
+  <select id="filter-era" aria-label="Filtrar por era">
+    <option value="">Todas as eras</option>
+    <option value="ancient">Antiguidade</option>
+    <option value="medieval">Medieval / Renascença</option>
+    <option value="classical">Séc. XVIII–XIX</option>
+    <option value="early20">1900–1940s</option>
+    <option value="mid20">1950–1970s</option>
+    <option value="late20">1980–1990s</option>
+    <option value="2000s">2000–2010s</option>
+    <option value="modern">2010–presente</option>
+  </select>
+  <button class="btn active" id="toggle-fusions">Fusões visíveis</button>
+  <button class="btn" id="btn-reset">Centrar</button>
+  <button class="btn" id="btn-export" title="Exportar dados como JSON" onclick="exportJSON()">⬇ Exportar JSON</button>
+  <div style="margin-left:auto;display:flex;gap:4px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:3px;">
+    <button class="view-toggle active" id="btn-view-graph" onclick="switchView('graph')" title="Grafo de rede">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:block"><circle cx="3" cy="8" r="2" stroke="currentColor" stroke-width="1.2"/><circle cx="13" cy="3" r="2" stroke="currentColor" stroke-width="1.2"/><circle cx="13" cy="13" r="2" stroke="currentColor" stroke-width="1.2"/><circle cx="8" cy="8" r="1.5" fill="currentColor" opacity=".4"/><line x1="5" y1="7.2" x2="11" y2="4" stroke="currentColor" stroke-width="1"/><line x1="5" y1="8.8" x2="11" y2="12" stroke="currentColor" stroke-width="1"/><line x1="8" y1="8" x2="11" y2="8" stroke="currentColor" stroke-width="1" opacity=".3"/></svg>
+    </button>
+    <button class="view-toggle" id="btn-view-tree" onclick="switchView('tree')" title="Árvore por categoria">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:block"><rect x="1" y="2" width="5" height="3" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="9" y="1" width="6" height="2.5" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="9" y="6" width="6" height="2.5" rx="1" stroke="currentColor" stroke-width="1.2"/><rect x="9" y="11" width="6" height="2.5" rx="1" stroke="currentColor" stroke-width="1.2"/><line x1="6" y1="3.5" x2="9" y2="2.2" stroke="currentColor" stroke-width="1"/><line x1="6" y1="3.5" x2="9" y2="7.2" stroke="currentColor" stroke-width="1"/><line x1="6" y1="3.5" x2="9" y2="12.2" stroke="currentColor" stroke-width="1"/></svg>
+    </button>
+  </div>
+</div>
+
+<div id="tree-view"></div>
+
+<div id="main">
+  <div id="legend">
+    <h3>Categorias</h3>
+  </div>
+
+  <div id="canvas-wrap">
+    <div id="loading">
+      <div class="spinner"></div>
+      <div id="loading-title">Atlas Musical</div>
+      <div id="loading-msg">A inicializar base de dados enciclopédica...</div>
+      <div id="loading-progress"><div id="loading-bar"></div></div>
+    </div>
+
+    <div id="error-msg">
+      <div>⚠ Erro ao carregar dados</div>
+      <button class="btn" onclick="location.reload()">Tentar novamente</button>
+    </div>
+
+    <svg id="graph-svg"></svg>
+
+    <div id="tooltip">
+      <div class="tt-name" id="tt-name"></div>
+      <div class="tt-cat" id="tt-cat"></div>
+      <div class="tt-info" id="tt-info"></div>
+      <div class="tt-fusion" id="tt-fusion"></div>
+    </div>
+
+    <div id="info-panel">
+      <button id="info-close">×</button>
+      <div id="info-name"></div>
+      <div id="info-cat"></div>
+      <div id="info-desc"></div>
+      <div id="info-fusions"></div>
+      <div id="info-related"></div>
+    </div>
+
+    <div id="zoom-controls">
+      <button class="zoom-btn" id="zoom-in">+</button>
+      <button class="zoom-btn" id="zoom-out">−</button>
+      <button class="zoom-btn" id="zoom-fit" title="Fit">⊡</button>
+    </div>
+  </div>
+</div>
+
+<footer id="footer">
+  <span>Criado por <strong>Pedro Silva</strong></span>
+  <span class="footer-sep">·</span>
+  <a href="https://www.pedro-silva.com" target="_blank" rel="noopener">pedro-silva.com</a>
+  <span class="footer-sep">·</span>
+  <a href="https://github.com/pedrofz84" target="_blank" rel="noopener">github.com/pedrofz84</a>
+</footer>
+
+  <!-- HELP MODAL -->
+  <div id="help-modal">
+    <div class="modal">
+      <button id="modal-close">×</button>
+      <div class="modal-tabs">
+        <button class="modal-tab active" data-tab="sobre">Sobre</button>
+        <button class="modal-tab" data-tab="usar">Como usar</button>
+        <button class="modal-tab" data-tab="dados">Dados</button>
+        <button class="modal-tab" data-tab="faq">FAQ</button>
+      </div>
+      <div class="modal-body">
+
+        <!-- SOBRE -->
+        <div class="modal-pane active" id="tab-sobre">
+          <p class="modal-lead">O <strong>Atlas dos Géneros Musicais</strong> é uma visualização interativa da história e evolução da música através dos séculos e continentes.</p>
+          <p>Cada nó representa um género; cada ligação, uma relação de parentesco, influência ou fusão. Os dados cobrem 396 géneros de todas as épocas e regiões do mundo.</p>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Tecnologias</p>
+          <ul class="modal-list">
+            <li><strong>D3.js v7</strong> — simulação de forças e renderização SVG</li>
+            <li><strong>HTML / CSS / JS puros</strong> — sem framework nem build step</li>
+            <li><strong>Google Fonts</strong> — Space Mono, Outfit</li>
+          </ul>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Licença</p>
+          <p>MIT — dados e código disponíveis para uso livre.</p>
+        </div>
+
+        <!-- COMO USAR -->
+        <div class="modal-pane" id="tab-usar">
+          <p class="modal-label">Grafo de rede</p>
+          <ul class="modal-list">
+            <li><span class="modal-key">Clique</span> num nó — abre painel de detalhes e realça conexões</li>
+            <li><span class="modal-key">Arrastar</span> um nó — repositiona-o na simulação</li>
+            <li><span class="modal-key">Scroll / pinch</span> — zoom in/out</li>
+            <li><span class="modal-key">Clique no fundo</span> — desseleccionar</li>
+            <li><span class="modal-key">Botões +/−/⊡</span> — zoom e centrar tudo</li>
+          </ul>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Filtros e pesquisa</p>
+          <ul class="modal-list">
+            <li>A pesquisa filtra por nome e descrição, ignorando acentos</li>
+            <li>Clicar na legenda filtra por categoria (clique novamente para remover)</li>
+            <li>O menu "Era" restringe a um período histórico</li>
+            <li>"Fusões visíveis" mostra/esconde as ligações de fusão</li>
+          </ul>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Vistas</p>
+          <ul class="modal-list">
+            <li><strong>Grafo</strong> — rede de forças interativa e navegável</li>
+            <li><strong>Árvore</strong> — géneros organizados por categoria com pesquisa interna por secção</li>
+          </ul>
+        </div>
+
+        <!-- DADOS -->
+        <div class="modal-pane" id="tab-dados">
+          <p class="modal-label">Base de dados</p>
+          <div id="modal-stats" class="modal-stats-grid">
+            <div class="stat-row"><span>A carregar…</span><strong></strong></div>
+          </div>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Tipos de ligação</p>
+          <ul class="modal-list">
+            <li><span class="link-swatch" style="background:#ffffff22;border-color:#ffffff33"></span><strong>Parentesco</strong> — um género originou o outro directamente</li>
+            <li><span class="link-swatch" style="background:#6b6b8a55;border-color:#6b6b8a"></span><strong>Influência</strong> — impacto estético e cultural significativo</li>
+            <li><span class="link-swatch" style="background:#ffb700aa;border-color:#ffb700"></span><strong>Fusão</strong> — género híbrido resultante de dois ou mais progenitores</li>
+          </ul>
+          <div class="modal-divider"></div>
+          <p class="modal-label">Eras históricas</p>
+          <div class="modal-eras">
+            <span>Antiguidade</span><span>Medieval / Renascença</span><span>Séc. XVIII–XIX</span>
+            <span>1900–1940s</span><span>1950–1970s</span><span>1980–1990s</span>
+            <span>2000–2010s</span><span>2010–presente</span>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="modal-pane" id="tab-faq">
+          <div class="faq-item">
+            <div class="faq-q">Porque é que os géneros estão em posições aparentemente aleatórias?</div>
+            <div class="faq-a">A posição de cada nó é calculada por simulação de forças física — géneros relacionados atraem-se mutuamente. Não há coordenadas fixas; o layout emerge das relações entre géneros.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">O que significam as diferentes cores e estilos das linhas?</div>
+            <div class="faq-a">Linhas brancas/cinzentas = parentesco ou influência. Linhas amarelas tracejadas = fusão (géneros híbridos). As setas indicam a direção da influência.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">O grafo não carrega — aparece uma mensagem de erro.</div>
+            <div class="faq-a">O projeto precisa de ser servido por um servidor HTTP local. Não funciona ao abrir o ficheiro directamente (<code>file://</code>). Use <code>python -m http.server 8000</code> ou a extensão Live Server do VS Code.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Posso descarregar os dados para uso próprio?</div>
+            <div class="faq-a">Sim. Clique em <strong>⬇ Exportar JSON</strong> nos controlos para descarregar todos os géneros e ligações em formato JSON. Os dados são disponibilizados sob licença MIT.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Como navego para um género a partir do painel de detalhes?</div>
+            <div class="faq-a">Clique em qualquer etiqueta de género no painel de detalhes (secções "Fusões" e "Relacionados") para centrar o grafo nesse nó e realçar as suas conexões.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
