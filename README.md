@@ -85,6 +85,3 @@ Qualquer serviço de hosting estático funciona:
 
 Recomenda-se servir com HTTPS e compressão gzip activada no servidor (reduz `data.json` de ~154 KB para ~40 KB).
 
-## Licença
-
-MIT
